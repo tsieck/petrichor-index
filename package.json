@@ -1,0 +1,14 @@
+{
+  "name": "petrichor-index",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "fetch:data": "node scripts/fetch-source.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "import:icons": "node scripts/import-icons.mjs",
+    "test": "node --test",
+    "check": "npm run test && node scripts/validate-data.mjs"
+  }
+}

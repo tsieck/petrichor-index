@@ -1,0 +1,437 @@
+{
+  "source": "https://riskofrain2.wiki.gg/wiki/Wandering_CHEF",
+  "lastVerified": "2026-08-10",
+  "recipes": [
+    {
+      "category": "Progression",
+      "result": "Exposed Cerebellum",
+      "ingredients": [
+        ["Encrypted Cerebellum"],
+        ["Rusted Key", "Empathy Cores", "Orphaned Core", "Sentry Key", "Prison Matrix", "Encrusted Key"]
+      ]
+    },
+    {
+      "category": "Meal",
+      "result": "Quick Fix",
+      "ingredients": [
+        ["Item Scrap, White"],
+        ["Mocha", "Eclipse Lite", "Bison Steak", "Cautious Slug", "Power Elixir", "Bustling Fungus", "Elusive Antlers", "Energy Drink", "Monster Tooth"]
+      ]
+    },
+    {
+      "category": "Meal",
+      "result": "Seared Steak",
+      "ingredients": [
+        ["Bison Steak"],
+        ["Mocha", "Eclipse Lite", "Bison Steak", "Cautious Slug", "Power Elixir", "Bustling Fungus", "Elusive Antlers", "Energy Drink", "Monster Tooth"]
+      ]
+    },
+    {
+      "category": "Meal",
+      "result": "Hearty Stew",
+      "ingredients": [
+        ["Lepton Daisy"],
+        ["Lepton Daisy", "Leeching Seed", "Squid Polyp", "Noxious Thorn"]
+      ]
+    },
+    {
+      "category": "Meal",
+      "result": "Ultimate Meal",
+      "ingredients": [
+        ["57 Leaf Clover"],
+        ["57 Leaf Clover", "Alien Head", "Growth Nectar", "Wake of Vultures", "Frost Relic", "Rejuvenation Rack", "Brainstalks", "Symbiotic Scorpion", "Interstellar Desk Plant", "Bottled Chaos"]
+      ]
+    },
+    {
+      "category": "Meal",
+      "result": "Sautéed Worms",
+      "ingredients": [["Molten Perforator"], ["Charged Perforator"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Titanic Knurl",
+      "ingredients": [["Infusion"], ["Leeching Seed"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Queen's Gland",
+      "ingredients": [["Squid Polyp"], ["Infusion"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Genesis Loop",
+      "ingredients": [["Old War Stealthkit"], ["Runald's Band"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Mired Urn",
+      "ingredients": [["Lepton Daisy"], ["Death Mark"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Little Disciple",
+      "ingredients": [["Rose Buckler"], ["Will-o'-the-wisp"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Shatterspleen",
+      "ingredients": [["Noxious Thorn"], ["Will-o'-the-wisp"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Empathy Cores",
+      "ingredients": [["Box of Dynamite"], ["Sentry Key"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Defense Nucleus",
+      "ingredients": [["Old Guillotine"], ["Squid Polyp"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Planula",
+      "ingredients": [["Leeching Seed"], ["Razorwire"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Molten Perforator",
+      "ingredients": [["AtG Missile Mk. 1"], ["Kjaro's Band"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Charged Perforator",
+      "ingredients": [["AtG Missile Mk. 1"], ["Unstable Tesla Coil", "Royal Capacitor"]]
+    },
+    {
+      "category": "Boss",
+      "result": "Halcyon Seed",
+      "ingredients": [["Aurelionite's Blessing"], ["Titanic Knurl"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Item Scrap, White",
+      "yield": 2,
+      "ingredients": [["Item Scrap, White"], ["Item Scrap, Green"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Item Scrap, White",
+      "yield": 4,
+      "ingredients": [["Item Scrap, White"], ["Item Scrap, Red", "Item Scrap, Yellow"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Lens-Maker's Glasses",
+      "yield": 2,
+      "ingredients": [["Item Scrap, White"], ["Predatory Instincts", "Harvester's Scythe"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Bison Steak",
+      "yield": 2,
+      "ingredients": [["Item Scrap, White"], ["Infusion"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Bison Steak",
+      "yield": 2,
+      "ingredients": [["Seared Steak"], ["Frost Relic"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Personal Shield Generator",
+      "yield": 2,
+      "ingredients": [["Item Scrap, White"], ["Kinetic Dampener"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Paul's Goat Hoof",
+      "yield": 4,
+      "ingredients": [["Item Scrap, White"], ["Hardlight Afterburner"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Topaz Brooch",
+      "yield": 4,
+      "ingredients": [["Item Scrap, White"], ["Ben's Raincoat"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Lens-Maker's Glasses",
+      "yield": 4,
+      "ingredients": [["Item Scrap, White"], ["Laser Scope"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Bustling Fungus",
+      "yield": 4,
+      "ingredients": [["Item Scrap, White"], ["Interstellar Desk Plant"]]
+    },
+    {
+      "category": "Bulk Common",
+      "result": "Personal Shield Generator",
+      "yield": 4,
+      "ingredients": [["Item Scrap, White"], ["Transcendence"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Item Scrap, Green",
+      "yield": 2,
+      "ingredients": [["Item Scrap, Red", "Item Scrap, Yellow"], ["Item Scrap, Green"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Regenerating Scrap",
+      "ingredients": [["Item Scrap, Green"], ["Item Scrap, Green"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Predatory Instincts",
+      "ingredients": [["Soldier's Syringe"], ["Lens-Maker's Glasses", "Hiker's Boots"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Ghor's Tome",
+      "ingredients": [["Monster Tooth"], ["Roll of Pennies"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Box of Dynamite",
+      "ingredients": [["Sticky Bomb"], ["Warbanner"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Old Guillotine",
+      "ingredients": [["Crowbar"], ["Armor-Piercing Rounds"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Old Guillotine",
+      "yield": 2,
+      "ingredients": [["Wake of Vultures"], ["Item Scrap, Green"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Will-o'-the-wisp",
+      "ingredients": [["Gasoline"], ["Sticky Bomb"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Kjaro's Band",
+      "ingredients": [["Runald's Band"], ["Gasoline"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Runald's Band",
+      "ingredients": [["Kjaro's Band"], ["Stun Grenade"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Shipping Request Form",
+      "ingredients": [["Rusted Key"], ["Bundle of Fireworks"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Harvester's Scythe",
+      "ingredients": [["Monster Tooth"], ["Lens-Maker's Glasses", "Hiker's Boots"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Faraday Spur",
+      "ingredients": [["Wax Quail"], ["Luminous Shot", "Royal Capacitor"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Breaching Fin",
+      "ingredients": [["Stun Grenade"], ["Paul's Goat Hoof"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Sale Star",
+      "ingredients": [["Ghor's Tome"], ["Shipping Request Form"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "AtG Missile Mk. 1",
+      "ingredients": [["Bundle of Fireworks"], ["Sticky Bomb"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "AtG Missile Mk. 1",
+      "yield": 2,
+      "ingredients": [["Pocket I.C.B.M."], ["Item Scrap, Green"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Kinetic Dampener",
+      "ingredients": [["Rose Buckler"], ["Personal Shield Generator"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Red Whip",
+      "ingredients": [["Energy Drink"], ["Cautious Slug"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Ignition Tank",
+      "ingredients": [["Gasoline"], ["Gasoline"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Unstable Transmitter",
+      "ingredients": [["Warped Echo"], ["Cautious Slug"]]
+    },
+    {
+      "category": "Uncommon",
+      "result": "Noxious Thorn",
+      "ingredients": [["Bolstering Lantern"], ["Tri-Tip Dagger"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Item Scrap, Red",
+      "ingredients": [["Regenerating Scrap"], ["Regenerating Scrap"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Alien Head",
+      "ingredients": [["Death Mark"], ["Infusion", "Seed of Life"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Growth Nectar",
+      "ingredients": [["Death Mark"], ["Noxious Thorn"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Sentient Meat Hook",
+      "ingredients": [["Ukulele"], ["Primordial Cube"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Laser Scope",
+      "ingredients": [["Harvester's Scythe"], ["Predatory Instincts"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Spare Drone Parts",
+      "ingredients": [["Box of Dynamite"], ["The Back-up"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "H3AD-5T v2",
+      "ingredients": [["Hopoo Feather", "Faraday Spur", "Wax Quail"], ["Hopoo Feather", "Faraday Spur", "Wax Quail"]],
+      "note": "The two ingredients must be different."
+    },
+    {
+      "category": "Legendary",
+      "result": "Rejuvenation Rack",
+      "ingredients": [["Trophy Hunter's Tricorn (Consumed)"], ["Harvester's Scythe"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Sonorous Whispers",
+      "ingredients": [["Sale Star"], ["Regenerating Scrap"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Brainstalks",
+      "ingredients": [["Old Guillotine"], ["Bandolier"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Runic Lens",
+      "ingredients": [["AtG Missile Mk. 1"], ["Luminous Shot"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Pocket I.C.B.M.",
+      "ingredients": [["AtG Missile Mk. 1"], ["Disposable Missile Launcher"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Unstable Tesla Coil",
+      "ingredients": [["Ukulele"], ["Razorwire"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Electric Boomerang",
+      "ingredients": [["Ukulele"], ["Shuriken"]]
+    },
+    {
+      "category": "Legendary",
+      "result": "Hardlight Afterburner",
+      "ingredients": [["Ignition Tank"], ["Hopoo Feather"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Blast Shower",
+      "ingredients": [["Fuel Cell"], ["Ben's Raincoat"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Disposable Missile Launcher",
+      "ingredients": [["Fuel Cell"], ["AtG Missile Mk. 1"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Volcanic Egg",
+      "ingredients": [["Gasoline"], ["Paul's Goat Hoof"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Molotov (6-Pack)",
+      "ingredients": [["Fuel Cell"], ["Gasoline"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Executive Card",
+      "ingredients": [["Sale Star"], ["Shipping Request Form"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Recycler",
+      "ingredients": [["Fuel Cell"], ["Bottled Chaos"]]
+    },
+    {
+      "category": "Equipment",
+      "result": "Sawmerang",
+      "ingredients": [["Shuriken"], ["Tri-Tip Dagger"]]
+    },
+    {
+      "category": "Elite Aspect",
+      "result": "Of One Mind",
+      "ingredients": [["Wake of Vultures"], ["Sentry Key"]]
+    },
+    {
+      "category": "Repair",
+      "result": "Power Elixir",
+      "ingredients": [["Empty Bottle"], ["Energy Drink", "Eclipse Lite"]]
+    },
+    {
+      "category": "Repair",
+      "result": "Power Elixir",
+      "yield": 4,
+      "ingredients": [["Empty Bottle"], ["Bottled Chaos"]]
+    },
+    {
+      "category": "Repair",
+      "result": "Delicate Watch",
+      "ingredients": [["Delicate Watch (Broken)"], ["Pearl"]]
+    },
+    {
+      "category": "Repair",
+      "result": "Dio's Best Friend",
+      "ingredients": [["Dio's Best Friend (Consumed)"], ["Irradiant Pearl"]]
+    },
+    {
+      "category": "Repair",
+      "result": "Trophy Hunter's Tricorn",
+      "ingredients": [["Trophy Hunter's Tricorn (Consumed)"], ["Armor-Piercing Rounds", "AtG Missile Mk. 1"]]
+    },
+    {
+      "category": "Repair",
+      "result": "Seed of Life",
+      "ingredients": [["Seed of Life (Consumed)"], ["Pearl"]]
+    }
+  ]
+}
