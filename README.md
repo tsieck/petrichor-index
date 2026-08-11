@@ -1,6 +1,5 @@
 # Petrichor Index
 
-**Build the fastest possible answer to: “What is this Risk of Rain 2 item, what does it do, and what does another stack give me?”**
 
 Petrichor Index is a small, polished, unofficial Risk of Rain 2 item reference. It keeps the item grid dominant, gives desktop players hover/focus previews, opens a bottom sheet on mobile, and puts the next-stack comparison ahead of long wiki prose.
 
