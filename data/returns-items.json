@@ -1,0 +1,5160 @@
+{
+  "meta": {
+    "game": "Risk of Rain Returns",
+    "total": 144,
+    "passiveItems": 114,
+    "equipment": 30,
+    "tiers": {
+      "Common": 33,
+      "Uncommon": 33,
+      "Legendary": 32,
+      "Boss": 7,
+      "Equipment": 30,
+      "Special": 9
+    },
+    "lastVerified": "2026-09-05",
+    "source": "https://riskofrainreturns.wiki.gg/wiki/Module:Items/Data",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "items": [
+    {
+      "id": "arcane-blades",
+      "name": "Arcane Blades",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Move faster after activating the Teleporter.",
+      "exactEffect": "Increases movement speed by 30% (+30% per stack) after the Teleporter has been activated.",
+      "unlock": "Complete \"...Or Your Money Back\": Complete the Providence Trial Kited Blades.",
+      "icon": "./public/assets/returns/Arcaneblades.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Arcaneblades.png",
+      "assetKey": "Arcaneblades.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Arcane_Blades",
+      "sourceRevision": 8355,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "30% at 1 stack, +30% each additional stack",
+        "stats": [
+          {
+            "stat": "Listed movement speed increase",
+            "base": "30%",
+            "add": "30%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "backup-magazine",
+      "name": "Backup Magazine",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Add an extra charge of your Secondary skill.",
+      "exactEffect": "Add +1 (+1 per stack) charge of your Secondary skill.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Backupmagazine.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Backupmagazine.png",
+      "assetKey": "Backupmagazine.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Backup_Magazine",
+      "sourceRevision": 8822,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Additional secondary charges",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "barbed-wire",
+      "name": "Barbed Wire",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Hurts nearby enemies.",
+      "exactEffect": "Hurt all enemies within 1m (+0.2m per stack) for 50% (+10% per stack) damage every 0.5 seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Barbedwire.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Barbedwire.png",
+      "assetKey": "Barbedwire.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Barbed_Wire",
+      "sourceRevision": 8749,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "50% at 1 stack, +10% each additional stack",
+        "stats": [
+          {
+            "stat": "Damage per tick",
+            "base": "50%",
+            "add": "10%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Radius",
+            "base": "1m",
+            "add": "0.2m",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bitter-root",
+      "name": "Bitter Root",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Increases maximum health by 8%.",
+      "exactEffect": "Increases maximum health by 8% (+8% per stack).",
+      "unlock": "Complete In Good Health: Reach 650 health.",
+      "icon": "./public/assets/returns/Bitterroot.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Bitterroot.png",
+      "assetKey": "Bitterroot.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Bitter_Root",
+      "sourceRevision": 8050,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "8% at 1 stack, +8% each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum health increase",
+            "base": "8%",
+            "add": "8%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bundle-of-fireworks",
+      "name": "Bundle of Fireworks",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Activating an interactable launches fireworks at nearby enemies.",
+      "exactEffect": "Activating an interactable launches 6 (+3 per stack) fireworks that deal 300% base damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Bundleoffireworks.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Bundleoffireworks.png",
+      "assetKey": "Bundleoffireworks.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Bundle_of_Fireworks",
+      "sourceRevision": 8045,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "6 at 1 stack, +3 each additional stack",
+        "stats": [
+          {
+            "stat": "Fireworks",
+            "base": "6",
+            "add": "3",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bustling-fungus",
+      "name": "Bustling Fungus",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "bungus",
+        "fungus"
+      ],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Heal quickly when standing still for 2 seconds.",
+      "exactEffect": "After standing still for 2 seconds, heal for 4.5% (+4.5% per stack) of your health every second to yourself and nearby allies.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Bustlingfungus.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Bustlingfungus.png",
+      "assetKey": "Bustlingfungus.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Bustling_Fungus",
+      "sourceRevision": 8030,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4.5% at 1 stack, +4.5% each additional stack",
+        "stats": [
+          {
+            "stat": "Max health healed per second",
+            "base": "4.5%",
+            "add": "4.5%",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "Healing stops in combat, even while standing still."
+      ]
+    },
+    {
+      "id": "crowbar",
+      "name": "Crowbar",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Deal bonus damage to healthy monsters.",
+      "exactEffect": "Deal +50% (+30% per stack) damage to enemies above 80% health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Crowbar.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Crowbar.png",
+      "assetKey": "Crowbar.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Crowbar",
+      "sourceRevision": 8043,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "50% at 1 stack, +30% each additional stack",
+        "stats": [
+          {
+            "stat": "Bonus damage above 80% health",
+            "base": "50%",
+            "add": "30%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fire-shield",
+      "name": "Fire Shield",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Retaliate on taking heavy damage.",
+      "exactEffect": "After taking more than 10% of your health as damage, explode for 400% (+200% per stack) damage, knocking enemies away (+20% force per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Fireshield.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Fireshield.png",
+      "assetKey": "Fireshield.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Fire_Shield",
+      "sourceRevision": 8029,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "400% at 1 stack, +200% each additional stack",
+        "stats": [
+          {
+            "stat": "Explosion damage",
+            "base": "400%",
+            "add": "200%",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "Additional stacks also increase knockback force by 20%; the comparison shows explosion damage."
+      ]
+    },
+    {
+      "id": "gasoline",
+      "name": "Gasoline",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Killing enemies sets the ground on fire.",
+      "exactEffect": "Killing enemies burns the ground for 60% (+40% per stack) damage.",
+      "unlock": "Complete Lizard Bait: Defeat 20 Lemurians in one playthrough.",
+      "icon": "./public/assets/returns/Gasoline.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Gasoline.png",
+      "assetKey": "Gasoline.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Gasoline",
+      "sourceRevision": 8054,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "60% at 1 stack, +40% each additional stack",
+        "stats": [
+          {
+            "stat": "Fire trail damage",
+            "base": "60%",
+            "add": "40%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "headstompers",
+      "name": "Headstompers",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Hurt enemies by falling.",
+      "exactEffect": "Hurt enemies by falling for up to 600% (+300% per stack) damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Headstompers.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Headstompers.png",
+      "assetKey": "Headstompers.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Headstompers",
+      "sourceRevision": 8678,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "600% at 1 stack, +300% each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum fall damage",
+            "base": "600%",
+            "add": "300%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hermits-scarf",
+      "name": "Hermit's Scarf",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "scarf",
+        "dodge",
+        "evasion"
+      ],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Chance to evade incoming damage.",
+      "exactEffect": "10% (+10% per stack) chance to evade incoming damage.",
+      "unlock": "Complete Rapidfire: Huntress: Achieve 200% attack speed.",
+      "icon": "./public/assets/returns/Hermitsscarf.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Hermitsscarf.png",
+      "assetKey": "Hermitsscarf.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Hermit's_Scarf",
+      "sourceRevision": 8053,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Hyperbolic",
+        "formula": "0.1 × stacks / (1 + 0.1 × stacks)",
+        "stats": [
+          {
+            "stat": "Evade chance",
+            "base": "10%",
+            "add": "10%",
+            "stacking": "Hyperbolic"
+          }
+        ]
+      },
+      "notes": [
+        "Evade chance uses diminishing returns: 0.1 × stacks / (1 + 0.1 × stacks). Ten scarves give 50% evasion."
+      ]
+    },
+    {
+      "id": "lens-makers-glasses",
+      "name": "Lens Maker's Glasses",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "crit glasses",
+        "glasses",
+        "lens-maker's glasses"
+      ],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to deal double damage.",
+      "exactEffect": "Your attacks have a 8% (+8% per stack) chance to 'Critically Strike', dealing double damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Lensmakersglasses.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Lensmakersglasses.png",
+      "assetKey": "Lensmakersglasses.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Lens_Maker's_Glasses",
+      "sourceRevision": 8699,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "8% at 1 stack, +8% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Critical chance",
+            "base": "8%",
+            "add": "8%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "life-savings",
+      "name": "Life Savings",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Gain gold over time.",
+      "exactEffect": "Generate $1 (+$1 per stack) every 3 seconds. Scales with time.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Lifesavings.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Lifesavings.png",
+      "assetKey": "Lifesavings.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Life_Savings",
+      "sourceRevision": 8034,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 gold at 1 stack, +1 gold each additional stack",
+        "stats": [
+          {
+            "stat": "Base gold every 3 seconds",
+            "base": "1 gold",
+            "add": "1 gold",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "Gold scales with run time. The calculator shows the base amount before time scaling."
+      ]
+    },
+    {
+      "id": "meat-nugget",
+      "name": "Meat Nugget",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Enemies drop chunks of healing meat.",
+      "exactEffect": "8% chance on hit to drop 2 meat nuggets that heal for 8 (+8 per stack) health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Meatnugget.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Meatnugget.png",
+      "assetKey": "Meatnugget.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Meat_Nugget",
+      "sourceRevision": 8742,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "8 HP at 1 stack, +8 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Healing per nugget",
+            "base": "8 HP",
+            "add": "8 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "medkit",
+      "name": "Medkit",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Receive a delayed heal after taking damage.",
+      "exactEffect": "Heal for 10 (+10 per stack) health 1.5 seconds after getting hurt.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Medkit.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Medkit.png",
+      "assetKey": "Medkit.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Medkit",
+      "sourceRevision": 8044,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10 HP at 1 stack, +10 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Healing after damage",
+            "base": "10 HP",
+            "add": "10 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility",
+        "Damage"
+      ],
+      "summary": "Slightly increase attack speed and movement speed.",
+      "exactEffect": "Increases movement speed by 7.5% (+7.5% per stack) and attack speed by 6% (+6% per stack).",
+      "unlock": "Complete The Grind: Level up to level 20.",
+      "icon": "./public/assets/returns/Mocha.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Mocha.png",
+      "assetKey": "Mocha.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Mocha",
+      "sourceRevision": 8745,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "6% at 1 stack, +6% each additional stack",
+        "stats": [
+          {
+            "stat": "Attack speed increase",
+            "base": "6%",
+            "add": "6%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Movement speed increase",
+            "base": "1.5 km/h",
+            "add": "1.5 km/h",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "Movement speed is a flat 1.5 km/h per stack, rather than the percentage in the description."
+      ]
+    },
+    {
+      "id": "monster-tooth",
+      "name": "Monster Tooth",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Heal after kills.",
+      "exactEffect": "Killing an enemy heals you for 10 (+5 per stack) health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Monstertooth.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Monstertooth.png",
+      "assetKey": "Monstertooth.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Monster_Tooth",
+      "sourceRevision": 8041,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10 HP at 1 stack, +5 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Healing per kill",
+            "base": "10 HP",
+            "add": "5 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mortar-tube",
+      "name": "Mortar Tube",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to launch a mortar.",
+      "exactEffect": "9% chance on hit to fire a mortar for 170% (+170% per stack) TOTAL damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Mortartube.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Mortartube.png",
+      "assetKey": "Mortartube.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Mortar_Tube",
+      "sourceRevision": 8038,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "170% at 1 stack, +170% each additional stack",
+        "stats": [
+          {
+            "stat": "Mortar TOTAL damage",
+            "base": "170%",
+            "add": "170%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance",
+            "base": "9%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mu-construct",
+      "name": "Mu Construct",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Heal periodically after activating the teleporter.",
+      "exactEffect": "Heal by 2.5% of your maximum health every 5 (-25% per stack) seconds after the Teleporter has been activated.",
+      "unlock": "Complete Pre-Alpha: Find this item hidden somewhere in the world to unlock it.",
+      "icon": "./public/assets/returns/Muconstruct.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Muconstruct.png",
+      "assetKey": "Muconstruct.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Mu_Construct",
+      "sourceRevision": 8740,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Healing interval",
+            "base": "Decreases with stacks",
+            "add": "",
+            "stacking": "Custom"
+          },
+          {
+            "stat": "Max health healed per pulse",
+            "base": "2.5%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      },
+      "notes": [
+        "Heals every 5 seconds at one stack. The source lists a 25% interval reduction per extra stack without specifying the full formula, so higher-stack intervals remain descriptive."
+      ]
+    },
+    {
+      "id": "mysterious-vial",
+      "name": "Mysterious Vial",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Increased health regeneration.",
+      "exactEffect": "Increase health regeneration by 0.84 (+0.84 per stack) hp per second.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Mysteriousvial.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Mysteriousvial.png",
+      "assetKey": "Mysteriousvial.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Mysterious_Vial",
+      "sourceRevision": 8036,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "0.84 HP/s at 1 stack, +0.84 HP/s each additional stack",
+        "stats": [
+          {
+            "stat": "Health regeneration",
+            "base": "0.84 HP/s",
+            "add": "0.84 HP/s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pauls-goat-hoof",
+      "name": "Paul's Goat Hoof",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "hoof",
+        "goat hoof"
+      ],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Move faster.",
+      "exactEffect": "Increases movement speed by 15% (+15% per stack).",
+      "unlock": "Complete \"Is This Bugged?\": Fail a shrine 3 times in a row.",
+      "icon": "./public/assets/returns/Paulsgoathoof.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Paulsgoathoof.png",
+      "assetKey": "Paulsgoathoof.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Paul's_Goat_Hoof",
+      "sourceRevision": 8049,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "3 km/h at 1 stack, +3 km/h each additional stack",
+        "stats": [
+          {
+            "stat": "Movement speed increase",
+            "base": "3 km/h",
+            "add": "3 km/h",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "The wiki's mechanics notes correct the listed 15% to a flat 3 km/h per stack."
+      ]
+    },
+    {
+      "id": "razor-penny",
+      "name": "Razor Penny",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Slightly increased Critical strike chance. Critical strikes give you gold.",
+      "exactEffect": "Gain 4% critical chance (+4% per stack). Critical strikes drop $1 (+1$ per stack) gold.",
+      "unlock": "Complete A Dime A Dozen: Kill 12 enemies simultaneously using the Gold-Plated Bomb.",
+      "icon": "./public/assets/returns/Razorpenny.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Razorpenny.png",
+      "assetKey": "Razorpenny.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Razor_Penny",
+      "sourceRevision": 8697,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4% at 1 stack, +4% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Critical chance",
+            "base": "4%",
+            "add": "4%",
+            "stacking": "Linear",
+            "maxValue": 100
+          },
+          {
+            "stat": "Base gold per critical hit",
+            "base": "1 gold",
+            "add": "1 gold",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rusty-knife",
+      "name": "Rusty Knife",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to bleed on hit.",
+      "exactEffect": "15% (+15% per stack) chance to bleed an enemy for 4x35% TOTAL damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Rustyknife.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Rustyknife.png",
+      "assetKey": "Rustyknife.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Rusty_Knife",
+      "sourceRevision": 8035,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "15% at 1 stack, +15% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Bleed chance",
+            "base": "15%",
+            "add": "15%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "snake-eyes",
+      "name": "Snake Eyes",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Gain increased critical strike chance on failing a shrine. Resets between stages.",
+      "exactEffect": "Failing a shrine increases critical chance by 7% (+7% per stack), up to 6 times. Resets at the start of each stage.",
+      "unlock": "Complete Lucky Devil: Pass a shrine 4 times in a row.",
+      "icon": "./public/assets/returns/Snakeeyes.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Snakeeyes.png",
+      "assetKey": "Snakeeyes.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Snake_Eyes",
+      "sourceRevision": 8052,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "7% at 1 stack, +7% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Critical chance per failed shrine",
+            "base": "7%",
+            "add": "7%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      },
+      "notes": [
+        "The calculator shows critical chance per failed shrine. Up to six failures contribute each stage; total critical chance cannot exceed 100%."
+      ]
+    },
+    {
+      "id": "soldiers-syringe",
+      "name": "Soldier's Syringe",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "syringe"
+      ],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Increases attack speed.",
+      "exactEffect": "Increases attack speed by 12% (+12% per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Soldierssyringe.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Soldierssyringe.png",
+      "assetKey": "Soldierssyringe.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Soldier's_Syringe",
+      "sourceRevision": 8042,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "12% at 1 stack, +12% each additional stack",
+        "stats": [
+          {
+            "stat": "Attack speed increase",
+            "base": "12%",
+            "add": "12%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spikestrip",
+      "name": "Spikestrip",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Drop spikestrips on being hit, snaring enemies.",
+      "exactEffect": "When hit, drop spikestrips that snare enemies for 1 (+0.5 per stack) second.",
+      "unlock": "Complete Tank: Enforcer: Block 2000 damage total with your displayName=falseshield.",
+      "icon": "./public/assets/returns/Spikestrip.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Spikestrip.png",
+      "assetKey": "Spikestrip.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Spikestrip",
+      "sourceRevision": 8356,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1s at 1 stack, +0.5s each additional stack",
+        "stats": [
+          {
+            "stat": "Snare duration",
+            "base": "1s",
+            "add": "0.5s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sprouting-egg",
+      "name": "Sprouting Egg",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Rapidly heal outside of danger.",
+      "exactEffect": "After not being hit for 7 seconds, increase health regeneration by 2.4 (+2.4 per stack) hp per second.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Sproutingegg.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Sproutingegg.png",
+      "assetKey": "Sproutingegg.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Sprouting_Egg",
+      "sourceRevision": 8032,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2.4 HP/s at 1 stack, +2.4 HP/s each additional stack",
+        "stats": [
+          {
+            "stat": "Health regeneration",
+            "base": "2.4 HP/s",
+            "add": "2.4 HP/s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sticky-bomb",
+      "name": "Sticky Bomb",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to attach a bomb to enemies.",
+      "exactEffect": "9% chance on hit to attach a bomb to an enemy, detonating for 200% (+100% per stack) TOTAL damage.",
+      "unlock": "Complete Controlled Demolition: Engineer: Detonate 15 Bounding Mine within 5 seconds.",
+      "icon": "./public/assets/returns/Stickybomb.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Stickybomb.png",
+      "assetKey": "Stickybomb.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Sticky_Bomb",
+      "sourceRevision": 8051,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "200% at 1 stack, +100% each additional stack",
+        "stats": [
+          {
+            "stat": "Bomb TOTAL damage",
+            "base": "200%",
+            "add": "100%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance",
+            "base": "9%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "taser",
+      "name": "Taser",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Chance to snare on hit.",
+      "exactEffect": "7% chance on hit to snare enemies for 1.5 (+0.5 per stack) seconds.",
+      "unlock": "Complete Bionic: Loader: Travel 6,500 meters using the Hydraulic Gauntlet.",
+      "icon": "./public/assets/returns/Taser.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Taser.png",
+      "assetKey": "Taser.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Taser",
+      "sourceRevision": 8357,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1.5s at 1 stack, +0.5s each additional stack",
+        "stats": [
+          {
+            "stat": "Snare duration",
+            "base": "1.5s",
+            "add": "0.5s",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance",
+            "base": "7%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-toxin",
+      "name": "The Toxin",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Touch enemies to weaken them.",
+      "exactEffect": "Infect enemies on contact for 3 seconds, causing them to receive 30% (+15% per stack) extra damage from all sources.",
+      "unlock": "Complete Altered Genome: Find the illegal shipment.",
+      "icon": "./public/assets/returns/Thetoxin.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Thetoxin.png",
+      "assetKey": "Thetoxin.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/The_Toxin",
+      "sourceRevision": 8058,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "30% at 1 stack, +15% each additional stack",
+        "stats": [
+          {
+            "stat": "Extra damage received by enemies",
+            "base": "30%",
+            "add": "15%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "topaz-brooch",
+      "name": "Topaz Brooch",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Kills grant temporary barrier.",
+      "exactEffect": "Killing an enemy grants 15 barrier (+15 per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Topazbrooch.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Topazbrooch.png",
+      "assetKey": "Topazbrooch.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Topaz_Brooch",
+      "sourceRevision": 8847,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "15 at 1 stack, +15 each additional stack",
+        "stats": [
+          {
+            "stat": "Barrier per kill",
+            "base": "15",
+            "add": "15",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "voltaic-mitt",
+      "name": "Voltaic Mitt",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Climbed ropes are electrified.",
+      "exactEffect": "Climbing creates an electric trail that deals 50% damage (+30% per stack).",
+      "unlock": "Complete Rope Burn: Complete the Providence Trial Hot-Rope Hop.",
+      "icon": "./public/assets/returns/Voltaicmitt.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Voltaicmitt.png",
+      "assetKey": "Voltaicmitt.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Voltaic_Mitt",
+      "sourceRevision": 8798,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "50% at 1 stack, +30% each additional stack",
+        "stats": [
+          {
+            "stat": "Electric trail damage",
+            "base": "50%",
+            "add": "30%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "warbanner",
+      "name": "Warbanner",
+      "tier": "Common",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Drop a Warbanner on level up or activating the teleporter, giving you great strength.",
+      "exactEffect": "On level up or activating the Teleporter, drop a banner that strengthens all allies within 4.6m (+1.4m per stack). Raise attack and movement speed by 30% and damage by 4. Also heals for 1% of your health every second.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Warbanner.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Warbanner.png",
+      "assetKey": "Warbanner.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Warbanner",
+      "sourceRevision": 8717,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4.6m at 1 stack, +1.4m each additional stack",
+        "stats": [
+          {
+            "stat": "Banner radius",
+            "base": "4.6m",
+            "add": "1.4m",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "56-leaf-clover",
+      "name": "56 Leaf Clover",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "clover",
+        "elite drops"
+      ],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Elite mobs have a chance to drop items.",
+      "exactEffect": "Elite mobs have a 4% (+1.5% per stack) chance to drop items.",
+      "unlock": "Complete Junk Collector: Kill the Scavenger.",
+      "icon": "./public/assets/returns/56leafclover.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:56leafclover.png",
+      "assetKey": "56leafclover.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/56_Leaf_Clover",
+      "sourceRevision": 8750,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4% at 1 stack, +1.5% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Elite item-drop chance",
+            "base": "4%",
+            "add": "1.5%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "arms-race",
+      "name": "Arms Race",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Drones are equipped with explosive weaponry. Summons a drone helper.",
+      "exactEffect": "Drones gain a 5% (+5% per stack) chance on hit to fire a missile for 300% TOTAL damage, and a 9% chance on hit to fire a mortar for 85% (+85% per stack) TOTAL damage. Summons a unique drone which regenerates each stage.",
+      "unlock": "Complete Hydraulic Press: HAN–D: Kill 10 enemies simultaneously with FORCED_REASSEMBLY.",
+      "icon": "./public/assets/returns/Armsrace.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Armsrace.png",
+      "assetKey": "Armsrace.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Arms_Race",
+      "sourceRevision": 8826,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "5% at 1 stack, +5% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Drone missile chance",
+            "base": "5%",
+            "add": "5%",
+            "stacking": "Linear",
+            "maxValue": 100
+          },
+          {
+            "stat": "Drone mortar TOTAL damage",
+            "base": "85%",
+            "add": "85%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "atg-missile-mk-1",
+      "name": "AtG Missile Mk. 1",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "atg",
+        "missile"
+      ],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to fire a missile.",
+      "exactEffect": "10% (+10% per stack) chance on hit to fire a missile that deals 300% TOTAL damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Atgmissilemk1.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Atgmissilemk1.png",
+      "assetKey": "Atgmissilemk1.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/AtG_Missile_Mk._1",
+      "sourceRevision": 8066,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10% at 1 stack, +10% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Missile chance",
+            "base": "10%",
+            "add": "10%",
+            "stacking": "Linear",
+            "maxValue": 100
+          },
+          {
+            "stat": "Missile TOTAL damage",
+            "base": "300%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boxing-gloves",
+      "name": "Boxing Gloves",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility",
+        "Damage"
+      ],
+      "summary": "Chance to knock enemies backwards for extra damage.",
+      "exactEffect": "6% (+6% per stack) chance on hitting enemies to knock them back for 100% TOTAL damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Boxinggloves.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Boxinggloves.png",
+      "assetKey": "Boxinggloves.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Boxing_Gloves",
+      "sourceRevision": 8072,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "6% at 1 stack, +6% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Knockback chance",
+            "base": "6%",
+            "add": "6%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "chargefield-generator",
+      "name": "Chargefield Generator",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Create a ring of lightning after killing an enemy. Lasts 6 seconds.",
+      "exactEffect": "Killing an enemy creates a ring of lightning that deals 50% (+20% per stack) damage every 0.5 seconds to 50% of enemies within. The ring starts with a radius of 4.7m and grows by 1.3m each kill up to 40m. Lasts for 6 seconds without killing enemies.",
+      "unlock": "Complete Flash of Light: Mercenary: Eviscerate 50 enemies.",
+      "icon": "./public/assets/returns/Chargefieldgenerator.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Chargefieldgenerator.png",
+      "assetKey": "Chargefieldgenerator.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Chargefield_Generator",
+      "sourceRevision": 8078,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "50% at 1 stack, +20% each additional stack",
+        "stats": [
+          {
+            "stat": "Damage per tick",
+            "base": "50%",
+            "add": "20%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "concussion-grenade",
+      "name": "Concussion Grenade",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Chance to stun enemies.",
+      "exactEffect": "6% (+6% per stack) chance on hitting enemies to stun them for 2 seconds.",
+      "unlock": "Complete Optimal: Engineer: Kill a boss in 15 seconds or less.",
+      "icon": "./public/assets/returns/Concussiongrenade.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Concussiongrenade.png",
+      "assetKey": "Concussiongrenade.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Concussion_Grenade",
+      "sourceRevision": 8082,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "6% at 1 stack, +6% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Stun chance",
+            "base": "6%",
+            "add": "6%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "dead-mans-foot",
+      "name": "Dead Man's Foot",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Drop a poison trap at low health.",
+      "exactEffect": "Chance when damaged to drop a poison mine that deals 150% damage and poisons for x600% (+450% per stack) damage over time. Chance to drop starts at 15% and increases with low health.",
+      "unlock": "Complete Last Wish: Find the bloated survivor.",
+      "icon": "./public/assets/returns/Deadmansfoot.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Deadmansfoot.png",
+      "assetKey": "Deadmansfoot.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Dead_Man's_Foot",
+      "sourceRevision": 8084,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "600% at 1 stack, +450% each additional stack",
+        "stats": [
+          {
+            "stat": "Poison damage over time",
+            "base": "600%",
+            "add": "450%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "decaying-sample",
+      "name": "Decaying Sample",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Gain an orbiting follower that damages enemies.",
+      "exactEffect": "Gain two orbiting spheres that strike for 100% (+ 50% stack) damage every 0.25 seconds.",
+      "unlock": "Complete A Little Extra Push: Complete the Providence Trial Main Systems Offline.",
+      "icon": "./public/assets/returns/Decayingsample.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Decayingsample.png",
+      "assetKey": "Decayingsample.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Decaying_Sample",
+      "sourceRevision": 8358,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "100% at 1 stack, +50% each additional stack",
+        "stats": [
+          {
+            "stat": "Sphere damage",
+            "base": "100%",
+            "add": "50%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "energy-cell",
+      "name": "Energy Cell",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Attack faster at lower health.",
+      "exactEffect": "Increases attack speed by up to 40% (+30% per stack) at low health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Energycell.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Energycell.png",
+      "assetKey": "Energycell.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Energy_Cell",
+      "sourceRevision": 8695,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "40% at 1 stack, +30% each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum attack speed increase",
+            "base": "40%",
+            "add": "30%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "filial-imprinting",
+      "name": "Filial Imprinting",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Hatch a strange creature who drops buffs periodically.",
+      "exactEffect": "Hatch 1 (+1 per stack) strange creature who drops buffs every 20 seconds. Buffs temporarily boost either movement speed, attack speed, or health regen.",
+      "unlock": "Complete Watery Grave: Drown 20 Whorls.",
+      "icon": "./public/assets/returns/Filialimprinting.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Filialimprinting.png",
+      "assetKey": "Filialimprinting.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Filial_Imprinting",
+      "sourceRevision": 8967,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Creatures",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "frost-relic",
+      "name": "Frost Relic",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Killing enemies surrounds you with icicles.",
+      "exactEffect": "Killing an enemy temporarily surrounds you with 3 (+1 per stack) icicles that deal 33% damage each every 0.33 seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Frostrelic.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Frostrelic.png",
+      "assetKey": "Frostrelic.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Frost_Relic",
+      "sourceRevision": 8076,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "3 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Icicles",
+            "base": "3",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "golden-gun",
+      "name": "Golden Gun",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "More gold, more damage.",
+      "exactEffect": "Deal bonus damage based on current gold, up to 40% damage. Caps at 700 (-50% per stack) gold. Scales with time.",
+      "unlock": "Complete War Bonds: Bank 20,000 gold.",
+      "icon": "./public/assets/returns/Goldengun.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Goldengun.png",
+      "assetKey": "Goldengun.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Golden_Gun",
+      "sourceRevision": 8080,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Damage bonus",
+            "base": "Depends on gold and time",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "Damage depends on gold and run time. The wiki notes that the damage bonus can reach 100%, beyond the 40% shown by the gold bar. No fixed damage comparison is calculated."
+      ]
+    },
+    {
+      "id": "guardians-heart",
+      "name": "Guardian's Heart",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Gain a shield. Recharges outside of danger.",
+      "exactEffect": "Gain a 60 (+60 per stack) health shield. Recharges when outside of danger for 7 seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Guardiansheart.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Guardiansheart.png",
+      "assetKey": "Guardiansheart.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Guardian's_Heart",
+      "sourceRevision": 8074,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "60 HP at 1 stack, +60 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Shield capacity",
+            "base": "60 HP",
+            "add": "60 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harvesters-scythe",
+      "name": "Harvester's Scythe",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Critical hits heal you.",
+      "exactEffect": "Gain 5% critical chance. Critical strikes heal for 8 (+2 per stack) health.",
+      "unlock": "Complete Insurance Fraud: Use a health shrine that drops you below 5% health.",
+      "icon": "./public/assets/returns/Harvestersscythe.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Harvestersscythe.png",
+      "assetKey": "Harvestersscythe.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Harvester's_Scythe",
+      "sourceRevision": 8086,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "8 HP at 1 stack, +2 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Healing per critical hit",
+            "base": "8 HP",
+            "add": "2 HP",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Critical chance",
+            "base": "5%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hopoo-feather",
+      "name": "Hopoo Feather",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Gain an extra jump.",
+      "exactEffect": "Gain +1 (+1 per stack) maximum jump count.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Hopoofeather.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Hopoofeather.png",
+      "assetKey": "Hopoofeather.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Hopoo_Feather",
+      "sourceRevision": 8075,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Additional jumps",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hunters-harpoon",
+      "name": "Hunter's Harpoon",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Killing an enemy grants a temporary burst of speed.",
+      "exactEffect": "Killing an enemy increases movement speed by 125% for 1 (+1 per stack) second. Consecutive kills increase buff duration for up to 25 seconds.",
+      "unlock": "Complete Yoink: Complete the Providence Trial A Toxic Path.",
+      "icon": "./public/assets/returns/Huntersharpoon.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Huntersharpoon.png",
+      "assetKey": "Huntersharpoon.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Hunter's_Harpoon",
+      "sourceRevision": 8715,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1s at 1 stack, +1s each additional stack; maximum 25",
+        "stats": [
+          {
+            "stat": "Duration added per kill",
+            "base": "1s",
+            "add": "1s",
+            "stacking": "Linear",
+            "maxValue": 25
+          },
+          {
+            "stat": "Movement speed increase",
+            "base": "12.5 km/h",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      },
+      "notes": [
+        "Movement speed is a flat 12.5 km/h. The accumulated buff duration is capped at 25 seconds."
+      ]
+    },
+    {
+      "id": "infusion",
+      "name": "Infusion",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Killing an enemy permanently increases your health.",
+      "exactEffect": "Killing an enemy increases your health permanently by 1 (+0.5 per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Infusion.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Infusion.png",
+      "assetKey": "Infusion.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Infusion",
+      "sourceRevision": 8064,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 HP at 1 stack, +0.5 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum health per kill",
+            "base": "1 HP",
+            "add": "0.5 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "insecticide",
+      "name": "Insecticide",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Healing"
+      ],
+      "summary": "Chance to apply damage over time. Heal if the enemy dies.",
+      "exactEffect": "10% (+5% per stack) chance on hit to spray an enemy dealing 10% damage per second. Spray stacks up to 10 times. Killing enemies heals for 10 (+5 per spray stack) health.",
+      "unlock": "Complete Field Testing: Complete the Providence Trial Get Off My Lawn!.",
+      "icon": "./public/assets/returns/Insecticide.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Insecticide.png",
+      "assetKey": "Insecticide.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Insecticide",
+      "sourceRevision": 8963,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10% at 1 stack, +5% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Spray chance",
+            "base": "10%",
+            "add": "5%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      },
+      "notes": [
+        "The calculator counts item stacks. Spray stacks on the enemy are separate, cap at ten, and determine healing on kill."
+      ]
+    },
+    {
+      "id": "leeching-seed",
+      "name": "Leeching Seed",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Attacking enemies heals you.",
+      "exactEffect": "Attacking enemies heals you for 2 (+1 per stack) health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Leechingseed.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Leechingseed.png",
+      "assetKey": "Leechingseed.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Leeching_Seed",
+      "sourceRevision": 8070,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2 HP at 1 stack, +1 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Healing per hit",
+            "base": "2 HP",
+            "add": "1 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "locked-jewel",
+      "name": "Locked Jewel",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Activating an interactable grants barrier and gold.",
+      "exactEffect": "Activating an interactable heals 35% (+15% per stack) of your maximum barrier and grants $8 (scales with time).",
+      "unlock": "Complete Strength of Will: Reach max barrier.",
+      "icon": "./public/assets/returns/Lockedjewel.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Lockedjewel.png",
+      "assetKey": "Lockedjewel.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Locked_Jewel",
+      "sourceRevision": 8300,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "35% at 1 stack, +15% each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum barrier restored",
+            "base": "35%",
+            "add": "15%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "panic-mines",
+      "name": "Panic Mines",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Drop a mine at low health.",
+      "exactEffect": "Chance when damaged to drop 1 (+1 per stack) mine that deals 400% damage. Chance to drop starts at 15% and increases with low health.",
+      "unlock": "Complete Blazing Victory: Miner: Survive the teleporter event without falling below 50% health.",
+      "icon": "./public/assets/returns/Panicmines.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Panicmines.png",
+      "assetKey": "Panicmines.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Panic_Mines",
+      "sourceRevision": 8087,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Mines dropped",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "predatory-instincts",
+      "name": "Predatory Instincts",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Critical strikes build an attack speed buff.",
+      "exactEffect": "Gain 5% critical chance. Critical strikes increase attack speed by 10% (+7% per stack). Maximum cap of 30% (+21% per stack) attack speed.",
+      "unlock": "Complete Sixth Sense: Huntress: Defeat the Ancient Wisp without taking damage.",
+      "icon": "./public/assets/returns/Predatoryinstincts.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Predatoryinstincts.png",
+      "assetKey": "Predatoryinstincts.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Predatory_Instincts",
+      "sourceRevision": 8088,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "30% at 1 stack, +21% each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum attack speed increase",
+            "base": "30%",
+            "add": "21%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Attack speed per critical hit",
+            "base": "10%",
+            "add": "7%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prison-shackles",
+      "name": "Prison Shackles",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Slow enemies on attack.",
+      "exactEffect": "Slow enemies on hit for -50% movement speed for 1.5 (+0.5 per stack) seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Prisonshackles.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Prisonshackles.png",
+      "assetKey": "Prisonshackles.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Prison_Shackles",
+      "sourceRevision": 8073,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1.5s at 1 stack, +0.5s each additional stack",
+        "stats": [
+          {
+            "stat": "Slow duration",
+            "base": "1.5s",
+            "add": "0.5s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prophets-cape",
+      "name": "Prophet's Cape",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "All blocked damage heals you.",
+      "exactEffect": "Briefly blocks all incoming damage upon being struck (Recharging after 15 seconds). Blocking damage heals you for 3 (+1 per stack) health.",
+      "unlock": "Complete Close Calls: Commando: Dodge 7 lethal attacks.",
+      "icon": "./public/assets/returns/Prophetscape.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Prophetscape.png",
+      "assetKey": "Prophetscape.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Prophet's_Cape",
+      "sourceRevision": 8681,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "3 HP at 1 stack, +1 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Healing per blocked hit",
+            "base": "3 HP",
+            "add": "1 HP",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "red-whip",
+      "name": "Red Whip",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Move fast out of combat.",
+      "exactEffect": "Leaving combat for 2 seconds boosts your movement speed by 60% (+60% per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Redwhip.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Redwhip.png",
+      "assetKey": "Redwhip.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Red_Whip",
+      "sourceRevision": 8077,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "12 km/h at 1 stack, +12 km/h each additional stack",
+        "stats": [
+          {
+            "stat": "Movement speed outside combat",
+            "base": "12 km/h",
+            "add": "12 km/h",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "The wiki's mechanics notes correct the listed 60% to a flat 12 km/h per stack."
+      ]
+    },
+    {
+      "id": "royal-medallion",
+      "name": "Royal Medallion",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Bosses drop powerful buffing wisps when hit.",
+      "exactEffect": "10% chance on hitting a boss monster to drop a buffing wisp that improves health regen, attack speed, move speed, and base damage for 10 (+6 per stack) seconds.",
+      "unlock": "Complete Gold Medalist: Get a gold rank on at least 5 Providence Trials.",
+      "icon": "./public/assets/returns/Royalmedallion.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Royalmedallion.png",
+      "assetKey": "Royalmedallion.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Royal_Medallion",
+      "sourceRevision": 8089,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10s at 1 stack, +6s each additional stack",
+        "stats": [
+          {
+            "stat": "Wisp buff duration",
+            "base": "10s",
+            "add": "6s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rusty-jetpack",
+      "name": "Rusty Jetpack",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Increase jump height and reduce gravity.",
+      "exactEffect": "Decrease gravity while holding the jump button by 10% (-10% per stack) and increase jump height (increases per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Rustyjetpack.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Rustyjetpack.png",
+      "assetKey": "Rustyjetpack.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Rusty_Jetpack",
+      "sourceRevision": 8069,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Jump height and gravity",
+            "base": "Custom movement effect",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "Stacks affect both gravity and jump height. The source does not provide a complete formula for either effect."
+      ]
+    },
+    {
+      "id": "smart-shopper",
+      "name": "Smart Shopper",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Enemies drop extra gold.",
+      "exactEffect": "Killed enemies drop 25% (+25% per stack) more gold.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Smartshopper.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Smartshopper.png",
+      "assetKey": "Smartshopper.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Smart_Shopper",
+      "sourceRevision": 8063,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "25% at 1 stack, +25% each additional stack",
+        "stats": [
+          {
+            "stat": "Extra gold from enemies",
+            "base": "25%",
+            "add": "25%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "time-keepers-secret",
+      "name": "Time Keeper's Secret",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Falling to low health stops time.",
+      "exactEffect": "Falling below 25% health stops time for 3 (+1 per stack) seconds. Recharges after 7 minutes.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Timekeeperssecret.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Timekeeperssecret.png",
+      "assetKey": "Timekeeperssecret.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Time_Keeper's_Secret",
+      "sourceRevision": 8952,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "3s at 1 stack, +1s each additional stack",
+        "stats": [
+          {
+            "stat": "Time-stop duration",
+            "base": "3s",
+            "add": "1s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tough-times",
+      "name": "Tough Times",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "teddy bear",
+        "bear",
+        "armor"
+      ],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Increase armor to reduce incoming damage.",
+      "exactEffect": "Increase armor by 14 (+14 per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Toughtimes.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Toughtimes.png",
+      "assetKey": "Toughtimes.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Tough_Times",
+      "sourceRevision": 8067,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "14 at 1 stack, +14 each additional stack",
+        "stats": [
+          {
+            "stat": "Armor",
+            "base": "14",
+            "add": "14",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "toxic-centipede",
+      "name": "Toxic Centipede",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Infected!",
+      "exactEffect": "Infect a nearby enemy on contact for 6 (+2 per stack) seconds, dealing 50% damage every 0.5 seconds. Bounces to other enemies if the target dies. Recharges every 6 (-33% per stack) seconds.",
+      "unlock": "Complete Dissolved: Acrid: Spread 3,300 feet of Caustic Sludge.",
+      "icon": "./public/assets/returns/Toxiccentipede.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Toxiccentipede.png",
+      "assetKey": "Toxiccentipede.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Toxic_Centipede",
+      "sourceRevision": 8085,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "6s at 1 stack, +2s each additional stack",
+        "stats": [
+          {
+            "stat": "Infection duration",
+            "base": "6s",
+            "add": "2s",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Recharge interval",
+            "base": "Decreases with stacks",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "Additional stacks also shorten the 6-second recharge interval. Its full cooldown formula is not specified; the comparison calculates infection duration."
+      ]
+    },
+    {
+      "id": "ukulele",
+      "name": "Ukulele",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "uke"
+      ],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "..and his music was electric.",
+      "exactEffect": "20% chance on hit to fire chain lightning for 66% (+66% per stack) TOTAL damage on up to 3 targets.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Ukulele.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Ukulele.png",
+      "assetKey": "Ukulele.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Ukulele",
+      "sourceRevision": 8071,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "66% at 1 stack, +66% each additional stack",
+        "stats": [
+          {
+            "stat": "Chain lightning TOTAL damage",
+            "base": "66%",
+            "add": "66%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance",
+            "base": "20%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "will-o-the-wisp",
+      "name": "Will-O'-The-Wisp",
+      "tier": "Uncommon",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "wisp",
+        "will o the wisp"
+      ],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to detonate enemies on kill.",
+      "exactEffect": "33% chance on killing an enemy to create a lava pillar for 300% (+200% per stack) damage, knocking enemies upwards.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Willothewisp.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Willothewisp.png",
+      "assetKey": "Willothewisp.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Will-O'-The-Wisp",
+      "sourceRevision": 8065,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "300% at 1 stack, +200% each additional stack",
+        "stats": [
+          {
+            "stat": "Lava pillar damage",
+            "base": "300%",
+            "add": "200%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance on kill",
+            "base": "33%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aegis",
+      "name": "Aegis",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Healing past full grants you a temporary barrier. Increased maximum barrier.",
+      "exactEffect": "Healing past full grants you barrier equal to 50% (+50% per stack) of the amount you healed. Increases maximum barrier by 20% (+20% per stack).",
+      "unlock": "Complete Massacre: Artificer: Multi-kill 15 enemies.",
+      "icon": "./public/assets/returns/Aegis.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Aegis.png",
+      "assetKey": "Aegis.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Aegis",
+      "sourceRevision": 8102,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "50% at 1 stack, +50% each additional stack",
+        "stats": [
+          {
+            "stat": "Overhealing converted to barrier",
+            "base": "50%",
+            "add": "50%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Maximum barrier increase",
+            "base": "20%",
+            "add": "20%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "alien-head",
+      "name": "Alien Head",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Reduces cooldowns for your skills.",
+      "exactEffect": "Decrease your skill cooldowns by 30% (+30% per stack).",
+      "unlock": "Complete Vampire: Obtain 7 altText=Monster Teeth and 1 Guardian's Heart.",
+      "icon": "./public/assets/returns/Alienhead.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Alienhead.png",
+      "assetKey": "Alienhead.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Alien_Head",
+      "sourceRevision": 8113,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Skill cooldown reduction",
+            "base": "Custom cooldown effect",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "The source lists 30% cooldown reduction but does not specify a full stacking formula or minimum cooldown. Higher-stack values are kept descriptive."
+      ]
+    },
+    {
+      "id": "ancient-scepter",
+      "name": "Ancient Scepter",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Upgrade your special skill.",
+      "exactEffect": "Upgrade your special skill. Unique to each character. Reduces special skill cooldown by 30% per stack.",
+      "unlock": "Complete Mastery: Mercenary: Beat the game on Monsoon difficulty.",
+      "icon": "./public/assets/returns/Ancientscepter.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Ancientscepter.png",
+      "assetKey": "Ancientscepter.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Ancient_Scepter",
+      "sourceRevision": 8860,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Special skill upgrade",
+            "base": "Survivor-specific effect",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "The first copy upgrades the special skill and gives no cooldown reduction. Further copies reduce its cooldown; the exact curve is not specified in the source."
+      ]
+    },
+    {
+      "id": "atg-missile-mk-2",
+      "name": "AtG Missile Mk. 2",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "atg",
+        "missile"
+      ],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Hooah.",
+      "exactEffect": "7% (+7% per stack) chance on hit to fire three missiles that deal 3x200% TOTAL damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Atgmissilemk2.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Atgmissilemk2.png",
+      "assetKey": "Atgmissilemk2.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/AtG_Missile_Mk._2",
+      "sourceRevision": 8125,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "7% at 1 stack, +7% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Missile volley chance",
+            "base": "7%",
+            "add": "7%",
+            "stacking": "Linear",
+            "maxValue": 100
+          },
+          {
+            "stat": "TOTAL damage per missile",
+            "base": "200%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "beating-embryo",
+      "name": "Beating Embryo",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Equipment has a chance to have double the effect.",
+      "exactEffect": "Equipment has a 30% (+30% per stack) chance to deal double the effect.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Beatingembryo.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Beatingembryo.png",
+      "assetKey": "Beatingembryo.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Beating_Embryo",
+      "sourceRevision": 8127,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "30% at 1 stack, +30% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Double equipment effect chance",
+            "base": "30%",
+            "add": "30%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      },
+      "notes": [
+        "The chance reaches 100% at four copies. Extra copies beyond that do not improve the chance."
+      ]
+    },
+    {
+      "id": "bottled-chaos",
+      "name": "Bottled Chaos",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Using your Equipment triggers an additional, random Equipment effect.",
+      "exactEffect": "Activating an Equipment triggers a random equipment effect 1 (+1 per stack) time(s).",
+      "unlock": "Complete Activated: Use the same Equipment Activator 5 times.",
+      "icon": "./public/assets/returns/Bottledchaos.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Bottledchaos.png",
+      "assetKey": "Bottledchaos.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Bottled_Chaos",
+      "sourceRevision": 8962,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Random equipment effects",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brilliant-behemoth",
+      "name": "Brilliant Behemoth",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "All your attacks explode!",
+      "exactEffect": "All your attacks explode for a bonus 20% (+20% per stack) TOTAL damage to nearby enemies.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Brilliantbehemoth.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Brilliantbehemoth.png",
+      "assetKey": "Brilliantbehemoth.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Brilliant_Behemoth",
+      "sourceRevision": 8682,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "20% at 1 stack, +20% each additional stack",
+        "stats": [
+          {
+            "stat": "Bonus explosive TOTAL damage",
+            "base": "20%",
+            "add": "20%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ceremonial-dagger",
+      "name": "Ceremonial Dagger",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Killing an enemy fires spirit bolts.",
+      "exactEffect": "Killing an enemy fires out 4 (+2 per stack) heat seaking bolts that deal 100% damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Ceremonialdagger.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Ceremonialdagger.png",
+      "assetKey": "Ceremonialdagger.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Ceremonial_Dagger",
+      "sourceRevision": 8120,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4 at 1 stack, +2 each additional stack",
+        "stats": [
+          {
+            "stat": "Homing bolts per kill",
+            "base": "4",
+            "add": "2",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "classified-access-codes",
+      "name": "Classified Access Codes",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Access a deadly weapon against the Teleporter bosses.",
+      "exactEffect": "The Atlas Cannon appears each stage, activating it deals 40% (+20% per stack) of maximum health as damage to the teleporter boss after it spawns.",
+      "unlock": "Complete Paratrooper: Complete the Providence Trial Emergency Ejection.",
+      "icon": "./public/assets/returns/Classifiedaccesscodes.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Classifiedaccesscodes.png",
+      "assetKey": "Classifiedaccesscodes.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Classified_Access_Codes",
+      "sourceRevision": 8365,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "40% at 1 stack, +20% each additional stack",
+        "stats": [
+          {
+            "stat": "Boss maximum health damage",
+            "base": "40%",
+            "add": "20%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dios-best-friend",
+      "name": "Dio's Best Friend",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "dio",
+        "revive"
+      ],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Cheat death once.",
+      "exactEffect": "Taking fatal damage consumes this item and revives you with 40% health and 2 seconds of invulnerability.",
+      "unlock": "Complete Sole Survivor: Die 50 times.",
+      "icon": "./public/assets/returns/Diosbestfriend.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Diosbestfriend.png",
+      "assetKey": "Diosbestfriend.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Dio's_Best_Friend",
+      "sourceRevision": 8369,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Available revivals",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "firemans-boots",
+      "name": "Fireman's Boots",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Fight fire with fire..",
+      "exactEffect": "Walking leaves behind a fire trail that burns for 35% (+20% per stack) damage.",
+      "unlock": "Complete In the Soup: Survive in lava for 1 minute straight.",
+      "icon": "./public/assets/returns/Firemansboots.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Firemansboots.png",
+      "assetKey": "Firemansboots.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Fireman's_Boots",
+      "sourceRevision": 8107,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "35% at 1 stack, +20% each additional stack",
+        "stats": [
+          {
+            "stat": "Fire trail damage",
+            "base": "35%",
+            "add": "20%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "happiest-mask",
+      "name": "Happiest Mask",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Killed enemies spawn friendly ghosts.",
+      "exactEffect": "Killed enemies spawn ghosts that last 15 seconds with 100% (+20% per stack) health and 70% (+30% per stack) damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Happiestmask.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Happiestmask.png",
+      "assetKey": "Happiestmask.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Happiest_Mask",
+      "sourceRevision": 8383,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "70% at 1 stack, +30% each additional stack",
+        "stats": [
+          {
+            "stat": "Ghost damage",
+            "base": "70%",
+            "add": "30%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Ghost health",
+            "base": "100%",
+            "add": "20%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hardlight-afterburner",
+      "name": "Hardlight Afterburner",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Add 2 extra charges of your Utility skill. Reduce Utility skill cooldown.",
+      "exactEffect": "Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Hardlightafterburner.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Hardlightafterburner.png",
+      "assetKey": "Hardlightafterburner.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Hardlight_Afterburner",
+      "sourceRevision": 8117,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2 at 1 stack, +2 each additional stack",
+        "stats": [
+          {
+            "stat": "Additional utility charges",
+            "base": "2",
+            "add": "2",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Utility cooldown reduction",
+            "base": "33%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "heaven-cracker",
+      "name": "Heaven Cracker",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Every 4 basic attacks pierce through enemies.",
+      "exactEffect": "Every 4 (-1 per stack) basic attacks pierce through enemies.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Heavencracker.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Heavencracker.png",
+      "assetKey": "Heavencracker.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Heaven_Cracker",
+      "sourceRevision": 8122,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4 at 1 stack, -1 each additional stack; minimum 1",
+        "stats": [
+          {
+            "stat": "Basic attacks per piercing attack",
+            "base": "4",
+            "add": "-1",
+            "stacking": "Linear",
+            "minValue": 1
+          }
+        ]
+      },
+      "notes": [
+        "At four stacks, every basic attack pierces. The interval cannot fall below one attack."
+      ]
+    },
+    {
+      "id": "hyper-threader",
+      "name": "Hyper-Threader",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Pew pew.",
+      "exactEffect": "Hitting enemies fires a laser that deals 40% damage and bounces to 2 (+1 per stack) enemies.",
+      "unlock": "Complete Thread the Needle: Complete the Providence Trial A Rung Above.",
+      "icon": "./public/assets/returns/Hyperthreader.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Hyperthreader.png",
+      "assetKey": "Hyperthreader.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Hyper-Threader",
+      "sourceRevision": 8370,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Laser bounce targets",
+            "base": "2",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "interstellar-desk-plant",
+      "name": "Interstellar Desk Plant",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Sprout a tree on kill, granting healing fruits.",
+      "exactEffect": "Upon killing an enemy, spawn an alien plant that heals you for 3% of your maximum health and recharges after 4 seconds. Plant lasts 15 (+5 per stack) seconds.",
+      "unlock": "Complete Cracking Claws: CHEF: SEAR/FLAMBE 20 Sand Crabs.",
+      "icon": "./public/assets/returns/Interstellardeskplant.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Interstellardeskplant.png",
+      "assetKey": "Interstellardeskplant.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Interstellar_Desk_Plant",
+      "sourceRevision": 8374,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "15s at 1 stack, +5s each additional stack",
+        "stats": [
+          {
+            "stat": "Plant lifetime",
+            "base": "15s",
+            "add": "5s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "laser-turbine",
+      "name": "Laser Turbine",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Using skills charges up to a huge laser blast.",
+      "exactEffect": "Using skills charges the generator by 7.8% (+7.8% per stack) per second. At full power, fire a laser for 2000% damage.",
+      "unlock": "Complete Catch and Release: CHEF: Have 20 displayName=false cleavers out at once.",
+      "icon": "./public/assets/returns/Laserturbine.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Laserturbine.png",
+      "assetKey": "Laserturbine.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Laser_Turbine",
+      "sourceRevision": 8373,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "7.8% at 1 stack, +7.8% each additional stack",
+        "stats": [
+          {
+            "stat": "Generator charge per second",
+            "base": "7.8%",
+            "add": "7.8%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "old-box",
+      "name": "Old Box",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Chance when damaged to drop a jack-in-the-box, fearing enemies.",
+      "exactEffect": "Chance when damaged to drop a jack-in-the-box, fearing enemies for 2 (+1 per stack) seconds. Chance to drop starts at 10% and increases with low health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Oldbox.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Oldbox.png",
+      "assetKey": "Oldbox.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Old_Box",
+      "sourceRevision": 8128,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2s at 1 stack, +1s each additional stack",
+        "stats": [
+          {
+            "stat": "Fear duration",
+            "base": "2s",
+            "add": "1s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "permafrost",
+      "name": "Permafrost",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Chance on hit to freeze enemies while also slowing.",
+      "exactEffect": "13% chance on hit to freeze enemies for 1.5 seconds while slowing by -80% movement speed for 3 (+1.5 per stack) seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Permafrost.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Permafrost.png",
+      "assetKey": "Permafrost.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Permafrost",
+      "sourceRevision": 8126,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "3s at 1 stack, +1.5s each additional stack",
+        "stats": [
+          {
+            "stat": "Slow duration",
+            "base": "3s",
+            "add": "1.5s",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Freeze duration",
+            "base": "1.5s",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "photon-jetpack",
+      "name": "Photon Jetpack",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "No hands.",
+      "exactEffect": "Hold the jump button to fly for up to 1.6 (+0.8 per stack) seconds. Recharges over 1.6 seconds.",
+      "unlock": "Complete Zero Sum: End a teleporter timer with 0 enemies on the map.",
+      "icon": "./public/assets/returns/Photonjetpack.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Photonjetpack.png",
+      "assetKey": "Photonjetpack.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Photon_Jetpack",
+      "sourceRevision": 8110,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1.6s at 1 stack, +0.8s each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum flight time",
+            "base": "1.6s",
+            "add": "0.8s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plasma-chain",
+      "name": "Plasma Chain",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance on hit to tether onto up to 1 enemy, dealing damage to any enemies in the path.",
+      "exactEffect": "Chance on hit to tether onto up to 1 (+1 per stack) enemy dealing 60% damage per 0.5 seconds to any enemies in the path.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Plasmachain.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Plasmachain.png",
+      "assetKey": "Plasmachain.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Plasma_Chain",
+      "sourceRevision": 8123,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Tethered enemies",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rapid-mitosis",
+      "name": "Rapid Mitosis",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Reduce the cooldown of equipment.",
+      "exactEffect": "Reduce the cooldown of equipment by 25% (+25% per stack).",
+      "unlock": "",
+      "icon": "./public/assets/returns/Rapidmitosis.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Rapidmitosis.png",
+      "assetKey": "Rapidmitosis.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Rapid_Mitosis",
+      "sourceRevision": 8121,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Exponential",
+        "formula": "(1 − 0.75^stacks) × 100% cooldown reduction",
+        "stats": [
+          {
+            "stat": "Equipment cooldown reduction",
+            "base": "25%",
+            "add": "25%",
+            "stacking": "Exponential"
+          }
+        ]
+      },
+      "notes": [
+        "Cooldown reduction is multiplicative: 1 − 0.75^stacks. Two copies reduce cooldown by 43.75%."
+      ]
+    },
+    {
+      "id": "repulsion-armor",
+      "name": "Repulsion Armor",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "After taking damage, reflect all attacks for 4 seconds.",
+      "exactEffect": "After 6 hits reflect incoming attacks for 400% damage and increase armor by 100 for 4 (+1 per stack) seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Repulsionarmor.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Repulsionarmor.png",
+      "assetKey": "Repulsionarmor.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Repulsion_Armor",
+      "sourceRevision": 8119,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "4s at 1 stack, +1s each additional stack",
+        "stats": [
+          {
+            "stat": "Reflection duration",
+            "base": "4s",
+            "add": "1s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shattering-justice",
+      "name": "Shattering Justice",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Reduce enemy armor on hit. Reduction stacks 5 times.",
+      "exactEffect": "Attacks reduce enemy armor by 6 for 2 (+2 per stack) seconds. Reduction stacks up to -30 armor.",
+      "unlock": "Complete Hot Streak: Miner: Reach level 10 without getting hurt more than once.",
+      "icon": "./public/assets/returns/Shatteringjustice.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Shatteringjustice.png",
+      "assetKey": "Shatteringjustice.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Shattering_Justice",
+      "sourceRevision": 8109,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2s at 1 stack, +2s each additional stack",
+        "stats": [
+          {
+            "stat": "Armor reduction duration",
+            "base": "2s",
+            "add": "2s",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Maximum armor removed",
+            "base": "30",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "substandard-duplicator",
+      "name": "Substandard Duplicator",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Picked up items yield an additional temporary copy.",
+      "exactEffect": "Picking up an item gives you a temporary copy of itself. Temporary items last an additional 10 (+10 per stack) seconds",
+      "unlock": "Complete By Design: Complete the Providence Trial A Duplicator?!.",
+      "icon": "./public/assets/returns/Substandardduplicator.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Substandardduplicator.png",
+      "assetKey": "Substandardduplicator.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Substandard_Duplicator",
+      "sourceRevision": 8366,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10s at 1 stack, +10s each additional stack",
+        "stats": [
+          {
+            "stat": "Additional temporary item lifetime",
+            "base": "10s",
+            "add": "10s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "telescopic-sight",
+      "name": "Telescopic Sight",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to instantly kill an enemy.",
+      "exactEffect": "1% (+0.5% per stack) chance on hit to instantly kill enemies. Does not work against bosses.",
+      "unlock": "Complete Iron Sights: Sniper: 1-shot kill 10 enemies consecutively.",
+      "icon": "./public/assets/returns/Telescopicsight.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Telescopicsight.png",
+      "assetKey": "Telescopicsight.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Telescopic_Sight",
+      "sourceRevision": 8371,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1% at 1 stack, +0.5% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Non-boss execution chance",
+            "base": "1%",
+            "add": "0.5%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "tesla-coil",
+      "name": "Tesla Coil",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Passively shock nearby enemies.",
+      "exactEffect": "Passively shock nearby enemies for 120% (+60% per stack) damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Teslacoil.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Teslacoil.png",
+      "assetKey": "Teslacoil.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Tesla_Coil",
+      "sourceRevision": 8129,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "120% at 1 stack, +60% each additional stack",
+        "stats": [
+          {
+            "stat": "Shock damage",
+            "base": "120%",
+            "add": "60%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thallium",
+      "name": "Thallium",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Chance to slow and damage enemies over time.",
+      "exactEffect": "10% (+10% per stack) chance on hit to damage by up to 2x60% enemy damage per second and slow for up to -150% movement speed over the course of 3 seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Thallium.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Thallium.png",
+      "assetKey": "Thallium.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Thallium",
+      "sourceRevision": 8713,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "10% at 1 stack, +10% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Proc chance",
+            "base": "10%",
+            "add": "10%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-hit-list",
+      "name": "The Hit List",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Killing marked enemies permanently increases damage.",
+      "exactEffect": "Randomly marks up to 1 (+1 per stack) enemy. Killing a marked enemy permanently increases damage by 0.5, up to 20 damage.",
+      "unlock": "Complete Classic Man: Bandit: Reset your cooldown 15 times consecutively.",
+      "icon": "./public/assets/returns/Thehitlist.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Thehitlist.png",
+      "assetKey": "Thehitlist.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/The_Hit_List",
+      "sourceRevision": 8372,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Simultaneously marked enemies",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Maximum permanent damage increase",
+            "base": "20",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-ol-lopper",
+      "name": "The Ol' Lopper",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Enemies take more damage at lower health.",
+      "exactEffect": "Deal bonus damage to enemies with lower health, up to +60% (+60% per stack) damage.",
+      "unlock": "Complete The Lone Survivor: Survive 40 minutes.",
+      "icon": "./public/assets/returns/Ollopper.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Ollopper.png",
+      "assetKey": "Ollopper.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/The_Ol'_Lopper",
+      "sourceRevision": 8112,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "60% at 1 stack, +60% each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum bonus damage",
+            "base": "60%",
+            "add": "60%",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "umbrella",
+      "name": "Umbrella",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "They fear the rain.",
+      "exactEffect": "Rain begins for 15 seconds (increases per stack) upon activating the Teleporter. Rain stuns, damages, and weakens enemies. You are invincible while it is raining.",
+      "unlock": "Complete Chance of Showers: Complete the Providence Trial Meteor Showers.",
+      "icon": "./public/assets/returns/Umbrella.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Umbrella.png",
+      "assetKey": "Umbrella.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Umbrella",
+      "sourceRevision": 8364,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Rain duration",
+            "base": "Diminishing duration gains",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "The wiki gives approximate durations of 15s, 23s, 31s, 36s, and 39s at one through five stacks. Later stacks have diminishing returns; no exact formula is asserted."
+      ]
+    },
+    {
+      "id": "wicked-ring",
+      "name": "Wicked Ring",
+      "tier": "Legendary",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Critical strikes reduce all your cooldowns by 1.",
+      "exactEffect": "Gain 5% (+10% per stack) critical chance. Critical strikes reduce cooldowns by 1 second.",
+      "unlock": "Complete Endless Voyager: Collect 4 altText=Keycards.",
+      "icon": "./public/assets/returns/Wickedring.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Wickedring.png",
+      "assetKey": "Wickedring.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Wicked_Ring",
+      "sourceRevision": 8114,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "5% at 1 stack, +10% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Critical chance",
+            "base": "5%",
+            "add": "10%",
+            "stacking": "Linear",
+            "maxValue": 100
+          },
+          {
+            "stat": "Cooldown removed per critical hit",
+            "base": "1s",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "burning-witness",
+      "name": "Burning Witness",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "The Worm's eye seems to still see.. watching.. rewarding..",
+      "exactEffect": "Killing enemies grants a fire trail and 30% movement speed for 6 (+2 per stack) seconds.",
+      "unlock": "Magma Worm as its boss item drop.",
+      "icon": "./public/assets/returns/Burningwitness.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Burningwitness.png",
+      "assetKey": "Burningwitness.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Burning_Witness",
+      "sourceRevision": 8170,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "6s at 1 stack, +2s each additional stack",
+        "stats": [
+          {
+            "stat": "Fire trail duration",
+            "base": "6s",
+            "add": "2s",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colossal-knurl",
+      "name": "Colossal Knurl",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility",
+        "Healing"
+      ],
+      "summary": "Increase health, health regeneration, and armor.",
+      "exactEffect": "Increase maximum health by 40, health regeneration by 1.2/second, and armor by 6.",
+      "unlock": "Colossus as its boss item drop.",
+      "icon": "./public/assets/returns/Colossalknurl.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Colossalknurl.png",
+      "assetKey": "Colossalknurl.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Colossal_Knurl",
+      "sourceRevision": 8169,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "40 HP at 1 stack, +40 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Maximum health",
+            "base": "40 HP",
+            "add": "40 HP",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Health regeneration",
+            "base": "1.2 HP/s",
+            "add": "1.2 HP/s",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Armor",
+            "base": "6",
+            "add": "6",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ifrits-horn",
+      "name": "Ifrit's Horn",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Chance to fire a flaming wave.",
+      "exactEffect": "8% chance on hit to fire a flaming wave that incinerates enemies for 300% (+300% per stack) damage.",
+      "unlock": "Ifrit as its boss item drop.",
+      "icon": "./public/assets/returns/Ifritshorn.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Ifritshorn.png",
+      "assetKey": "Ifritshorn.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Ifrit's_Horn",
+      "sourceRevision": 8168,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "300% at 1 stack, +300% each additional stack",
+        "stats": [
+          {
+            "stat": "Flaming wave base damage",
+            "base": "300%",
+            "add": "300%",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance",
+            "base": "8%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imp-overlords-tentacle",
+      "name": "Imp Overlord's Tentacle",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "imp",
+        "tentacle"
+      ],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Cut off the head of the snake.. and the body lives on.",
+      "exactEffect": "Summon an imp bodyguard. Revives after 60 (-10 per stack) seconds. Increase imp health and damage by 15% per stack.",
+      "unlock": "Imp Overlord as its boss item drop.",
+      "icon": "./public/assets/returns/Impoverlordstentacle.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Impoverlordstentacle.png",
+      "assetKey": "Impoverlordstentacle.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Imp_Overlord's_Tentacle",
+      "sourceRevision": 8171,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Imp strength and revival",
+            "base": "Custom companion effect",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "Stacks strengthen the imp and shorten its revival delay. The source does not specify the minimum delay, so a potentially negative timer is not calculated."
+      ]
+    },
+    {
+      "id": "legendary-spark",
+      "name": "Legendary Spark",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Smite them. Smite them all.",
+      "exactEffect": "8% chance on hit to create 2 (+1 per stack) sparks that smite enemies for 200% TOTAL damage.",
+      "unlock": "Ancient Wisp as its boss item drop.",
+      "icon": "./public/assets/returns/Legendaryspark.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Legendaryspark.png",
+      "assetKey": "Legendaryspark.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Legendary_Spark",
+      "sourceRevision": 8384,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "2 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Sparks",
+            "base": "2",
+            "add": "1",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Proc chance",
+            "base": "8%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lost-pickaxe",
+      "name": "Lost Pickaxe",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Scorching from beyond.",
+      "exactEffect": "15% (+10% per stack) chance on hit to summon a pickaxe that deals 220% TOTAL damage and pierces enemies.",
+      "unlock": "Direseeker as its boss item drop.",
+      "icon": "./public/assets/returns/Lostpickaxe.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Lostpickaxe.png",
+      "assetKey": "Lostpickaxe.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Lost_Pickaxe",
+      "sourceRevision": 8838,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "15% at 1 stack, +10% each additional stack; maximum 100%",
+        "stats": [
+          {
+            "stat": "Pickaxe chance",
+            "base": "15%",
+            "add": "10%",
+            "stacking": "Linear",
+            "maxValue": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "scorching-shell-piece",
+      "name": "Scorching Shell Piece",
+      "tier": "Boss",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Gain shield. Fire a barrage of projectiles when it breaks.",
+      "exactEffect": "Gain a 20 (+20 per stack) health shield. Fire up to 4 (+2 per stack) projectiles at nearby enemies when it breaks.",
+      "unlock": "Cremator as its boss item drop.",
+      "icon": "./public/assets/returns/Scorchingshellpiece.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Scorchingshellpiece.png",
+      "assetKey": "Scorchingshellpiece.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Scorching_Shell_Piece",
+      "sourceRevision": 8825,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "20 HP at 1 stack, +20 HP each additional stack",
+        "stats": [
+          {
+            "stat": "Shield capacity",
+            "base": "20 HP",
+            "add": "20 HP",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Maximum projectiles",
+            "base": "4",
+            "add": "2",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "captains-brooch",
+      "name": "Captain's Brooch",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "One man's wreckage is another man's treasure.",
+      "exactEffect": "Call down a chest nearby. Chest cost is doubled.",
+      "unlock": "Complete Special Delivery: Unlock a golden chest with the Explorer's Key.",
+      "icon": "./public/assets/returns/Captainsbrooch.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Captainsbrooch.png",
+      "assetKey": "Captainsbrooch.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Captain's_Brooch",
+      "sourceRevision": 8135,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 135
+      }
+    },
+    {
+      "id": "carrara-marble",
+      "name": "Carrara Marble",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Place a marble gate. Teleport back to the gate by activating again.",
+      "exactEffect": "Place a marble gate. Teleport back to the gate by activating again.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Carraramarble.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Carraramarble.png",
+      "assetKey": "Carraramarble.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Carrara_Marble",
+      "sourceRevision": 8151,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "crudely-drawn-buddy",
+      "name": "Crudely-Drawn Buddy",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Drop a decoy, attracting nearby enemies.",
+      "exactEffect": "Blow up a decoy, attracting and confusing enemies for 8 seconds. Looks just like you.",
+      "unlock": "Complete High Caliber: Sniper: Achieve 15 consecutive perfect reloads.",
+      "icon": "./public/assets/returns/Crudelydrawnbuddy.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Crudelydrawnbuddy.png",
+      "assetKey": "Crudelydrawnbuddy.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Crudely-Drawn_Buddy",
+      "sourceRevision": 8840,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "disposable-missile-launcher",
+      "name": "Disposable Missile Launcher",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Fire a swarm of missiles.",
+      "exactEffect": "Fire a swarm of 12 missiles, dealing 200% damage each.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Disposablemissilelauncher.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Disposablemissilelauncher.png",
+      "assetKey": "Disposablemissilelauncher.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Disposable_Missile_Launcher",
+      "sourceRevision": 8148,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "drone-repair-kit",
+      "name": "Drone Repair Kit",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Repair and empower all active drones. Summons a unique drone to assist.",
+      "exactEffect": "All drones are repaired to full health and empowered for 8 seconds. Summons a unique drone.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Dronerepairkit.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Dronerepairkit.png",
+      "assetKey": "Dronerepairkit.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Drone_Repair_Kit",
+      "sourceRevision": 8146,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "dynamite-plunger",
+      "name": "Dynamite Plunger",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Hitting enemies drops dynamite. Use to detonate.",
+      "exactEffect": "Hitting an enemy drops dynamite. Use to detonate for 200% damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Dynamiteplunger.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Dynamiteplunger.png",
+      "assetKey": "Dynamiteplunger.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Dynamite_Plunger",
+      "sourceRevision": 8144,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "evolved-nematocyst-nozzle",
+      "name": "Evolved Nematocyst Nozzle",
+      "tier": "Equipment",
+      "subTier": "Boss Equipment",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Cnidarian delicacy.",
+      "exactEffect": "Shoot out 9 nematocysts that deal 400% damage.",
+      "unlock": "Scrap an Evolved Young Jelly drone using a Drone Scrapper.",
+      "icon": "./public/assets/returns/Evolvednematocystnozzle.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Evolvednematocystnozzle.png",
+      "assetKey": "Evolvednematocystnozzle.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Evolved_Nematocyst_Nozzle",
+      "sourceRevision": 8806,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 24
+      }
+    },
+    {
+      "id": "explorers-key",
+      "name": "Explorer's Key",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Unlocks all chests within 20 meters.",
+      "exactEffect": "Open all chests within 20 meters.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Explorerskey.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Explorerskey.png",
+      "assetKey": "Explorerskey.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Explorer's_Key",
+      "sourceRevision": 8155,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 90
+      }
+    },
+    {
+      "id": "foreign-fruit",
+      "name": "Foreign Fruit",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Heal on use.",
+      "exactEffect": "Heal yourself for 50% of your health.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Foreignfruit.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Foreignfruit.png",
+      "assetKey": "Foreignfruit.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Foreign_Fruit",
+      "sourceRevision": 8154,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "gigantic-amethyst",
+      "name": "Gigantic Amethyst",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Resets all your cooldowns.",
+      "exactEffect": "Reset all your cooldowns.",
+      "unlock": "Complete Snuffed Out: Loader: Kill the Overloading Magma Worm.",
+      "icon": "./public/assets/returns/Giganticamethyst.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Giganticamethyst.png",
+      "assetKey": "Giganticamethyst.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Gigantic_Amethyst",
+      "sourceRevision": 8762,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 8
+      }
+    },
+    {
+      "id": "glowing-meteorite",
+      "name": "Glowing Meteorite",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Rain meteors from the sky, hurting both enemies and allies.",
+      "exactEffect": "Meteors fall from the sky, damaging enemies and friends for 10% of their maximum health. Lasts 8 seconds.",
+      "unlock": "Complete Macho: Deal 5000 damage in one shot.",
+      "icon": "./public/assets/returns/Glowingmeteorite.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Glowingmeteorite.png",
+      "assetKey": "Glowingmeteorite.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Glowing_Meteorite",
+      "sourceRevision": 8132,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 70
+      }
+    },
+    {
+      "id": "gold-plated-bomb",
+      "name": "Gold-Plated Bomb",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Drop and detonate 50% of your money.",
+      "exactEffect": "Use 50% of your gold to create a bomb, dealing 1 damage per gold spent. Refund 20% of spent gold on kill.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Goldplatedbomb.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Goldplatedbomb.png",
+      "assetKey": "Goldplatedbomb.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Gold-Plated_Bomb",
+      "sourceRevision": 8961,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "instant-minefield",
+      "name": "Instant Minefield",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Drop many mines at your feet.",
+      "exactEffect": "Drop 7 mines at your feet, each dealing 400% damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Instantminefield.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Instantminefield.png",
+      "assetKey": "Instantminefield.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Instant_Minefield",
+      "sourceRevision": 8153,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "jar-of-souls",
+      "name": "Jar of Souls",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Summon a ghost for every enemy in the screen.",
+      "exactEffect": "Duplicate every enemy as a ghost to fight on your side. Ghosts last 15 seconds and have 70% damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Jarofsouls.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Jarofsouls.png",
+      "assetKey": "Jarofsouls.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Jar_of_Souls",
+      "sourceRevision": 8152,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "lost-doll",
+      "name": "Lost Doll",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Harm yourself to deal massive damage to an enemy.",
+      "exactEffect": "Sacrifice 25% health to damage an enemy for 400% of your maximum health.",
+      "unlock": "Complete Still Standing: Survive a boss with less than 20% health.",
+      "icon": "./public/assets/returns/Lostdoll.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Lostdoll.png",
+      "assetKey": "Lostdoll.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Lost_Doll",
+      "sourceRevision": 8137,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "mace-replica",
+      "name": "Mace Replica",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Swing a powerful mace, activating your item effects.",
+      "exactEffect": "Swing a powerful mace for 250% damage, knocking enemies away. Guaranteed to activate all on-hit item effects.",
+      "unlock": "Complete Untouchable: Commando: Activate the 3rd teleporter without being hurt once.",
+      "icon": "./public/assets/returns/Macereplica.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Macereplica.png",
+      "assetKey": "Macereplica.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Mace_Replica",
+      "sourceRevision": 8959,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "nematocyst-nozzle",
+      "name": "Nematocyst Nozzle",
+      "tier": "Equipment",
+      "subTier": "Boss Equipment",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Best served cold.",
+      "exactEffect": "Shoot out 6 nematocysts that deal 400% damage.",
+      "unlock": "Wandering Vagrant as its boss item drop.",
+      "icon": "./public/assets/returns/Nematocystnozzle.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Nematocystnozzle.png",
+      "assetKey": "Nematocystnozzle.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Nematocyst_Nozzle",
+      "sourceRevision": 8167,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 22
+      }
+    },
+    {
+      "id": "pillaged-gold",
+      "name": "Pillaged Gold",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "For 14 seconds, hitting enemies causes them to drop gold.",
+      "exactEffect": "For 14 seconds, every hit drops gold.",
+      "unlock": "Complete Desperado: Bandit: Kill a boss with Lights Out.",
+      "icon": "./public/assets/returns/Pillagedgold.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Pillagedgold.png",
+      "assetKey": "Pillagedgold.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Pillaged_Gold",
+      "sourceRevision": 8955,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "prescriptions",
+      "name": "Prescriptions",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Temporarily increase damage and attack speed.",
+      "exactEffect": "Increase damage by 30% and attack speed by 40% for 15 seconds.",
+      "unlock": "Complete Turtle: Enforcer: Stay in displayName=false Shield Mode for 5 minutes straight (in combat).",
+      "icon": "./public/assets/returns/Prescriptions.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Prescriptions.png",
+      "assetKey": "Prescriptions.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Prescriptions",
+      "sourceRevision": 8965,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      },
+      "notes": [
+        "The item's wiki notes update the duration to 15 seconds; the catalog description still lists 8 seconds."
+      ]
+    },
+    {
+      "id": "rotten-brain",
+      "name": "Rotten Brain",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Throw a bouncing brain.",
+      "exactEffect": "Throw a brain that bounces in place, damaging/slowing enemies for 6x200%.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Rottenbrain.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Rottenbrain.png",
+      "assetKey": "Rottenbrain.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Rotten_Brain",
+      "sourceRevision": 8158,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 30
+      },
+      "notes": [
+        "The initial impact is an extra hit: up to seven hits of 200% damage, according to the item's wiki notes."
+      ]
+    },
+    {
+      "id": "safeguard-lantern",
+      "name": "Safeguard Lantern",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage",
+        "Utility"
+      ],
+      "summary": "Drop a lantern that fears and damages enemies for 10 seconds.",
+      "exactEffect": "Drop a lantern for 10 seconds. Fears and damages enemies for 100% damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Safeguardlantern.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Safeguardlantern.png",
+      "assetKey": "Safeguardlantern.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Safeguard_Lantern",
+      "sourceRevision": 8157,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "sawmerang",
+      "name": "Sawmerang",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Mow them down!",
+      "exactEffect": "Throw out a sawmerang, slicing enemies for 500% damage and making them bleed for 4x100% damage. Boomerangs back.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Sawmerang.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Sawmerang.png",
+      "assetKey": "Sawmerang.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Sawmerang",
+      "sourceRevision": 8150,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      },
+      "notes": [
+        "The return pass deals 300% damage, according to the item's wiki notes."
+      ]
+    },
+    {
+      "id": "shattered-mirror",
+      "name": "Shattered Mirror",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Create a shadow partner for 15 seconds.",
+      "exactEffect": "For 15 seconds, double all your abilities' damage and effects.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Shatteredmirror.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Shatteredmirror.png",
+      "assetKey": "Shatteredmirror.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Shattered_Mirror",
+      "sourceRevision": 8149,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 75
+      }
+    },
+    {
+      "id": "shield-generator",
+      "name": "Shield Generator",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Become invulnerable for 8 seconds.",
+      "exactEffect": "Become invincible for 8 seconds.",
+      "unlock": "Complete Like New: HAN-D: Beat the third stage without falling below 60% health.",
+      "icon": "./public/assets/returns/Shieldgenerator.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Shieldgenerator.png",
+      "assetKey": "Shieldgenerator.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Shield_Generator",
+      "sourceRevision": 8763,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "snowglobe",
+      "name": "Snowglobe",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Freeze enemies in a snowstorm.",
+      "exactEffect": "Summon a snowstorm that freezes monsters at a 50% chance/sec over 7 seconds.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Snowglobe.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Snowglobe.png",
+      "assetKey": "Snowglobe.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Snowglobe",
+      "sourceRevision": 8156,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "strange-battery",
+      "name": "Strange Battery",
+      "tier": "Equipment",
+      "subTier": "Special Equipment",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [],
+      "summary": "Bzzzt.",
+      "exactEffect": "Fire chain lightning for 33% damage.",
+      "unlock": "Hidden in a unique interactable vase on all variants of Temple of the Elders, but only on Drizzle.",
+      "icon": "./public/assets/returns/Strangebattery.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Strangebattery.png",
+      "assetKey": "Strangebattery.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Strange_Battery",
+      "sourceRevision": 8176,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "super-massive-leech",
+      "name": "Super Massive Leech",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Healing"
+      ],
+      "summary": "Grant massive life on hit for 10 seconds.",
+      "exactEffect": "For 10 seconds, every hit heals you for 9 health.",
+      "unlock": "Complete Catchy: Acrid: Spread Epidemic to 25 enemies.",
+      "icon": "./public/assets/returns/Supermassiveleech.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Supermassiveleech.png",
+      "assetKey": "Supermassiveleech.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Super_Massive_Leech",
+      "sourceRevision": 8725,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "the-back-up",
+      "name": "The Back-up",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Call drones for backup. Lasts 10 seconds.",
+      "exactEffect": "Create 4 drones to fight for you for 10 seconds.",
+      "unlock": "Complete Mechanized Militia: Have 4 drone helpers at once.",
+      "icon": "./public/assets/returns/Thebackup.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Thebackup.png",
+      "assetKey": "Thebackup.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/The_Back-up",
+      "sourceRevision": 8134,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "thqwib",
+      "name": "Thqwib",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Damage"
+      ],
+      "summary": "Releases a bloom of Thqwibs, detonating on impact.",
+      "exactEffect": "Release a bloom of 30 thqwibs, detonating on impact for 200% damage.",
+      "unlock": "",
+      "icon": "./public/assets/returns/Thqwib.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Thqwib.png",
+      "assetKey": "Thqwib.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Thqwib",
+      "sourceRevision": 8145,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 45
+      }
+    },
+    {
+      "id": "unstable-watch",
+      "name": "Unstable Watch",
+      "tier": "Equipment",
+      "subTier": "",
+      "kind": "equipment",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "Utility"
+      ],
+      "summary": "Pause time for 7 seconds.",
+      "exactEffect": "Stop time for 7 seconds.",
+      "unlock": "Complete Never Look Back: Complete the 1st stage in under 5 minutes.",
+      "icon": "./public/assets/returns/Unstable%20Watch.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Unstable_Watch.png",
+      "assetKey": "Unstable Watch.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Unstable_Watch",
+      "sourceRevision": 8968,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Equipment occupies one slot; additional copies do not stack",
+        "stats": []
+      },
+      "equipment": {
+        "cooldown": 67
+      }
+    },
+    {
+      "id": "big-bison-steak",
+      "name": "Big Bison Steak",
+      "tier": "Special",
+      "subTier": "Meal",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "CHEF",
+        "meal",
+        "temporary"
+      ],
+      "summary": "Increase health regeneration and movement speed.",
+      "exactEffect": "Increase health regeneration by 0.6 HP/s (+0.6 per stack), and movement speed by 2km/h (+2 per stack).",
+      "unlock": "One of the meals CHEF can produce from COOK.",
+      "icon": "./public/assets/returns/Bigbisonsteak.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Bigbisonsteak.png",
+      "assetKey": "Bigbisonsteak.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/CHEF#Possible_meals_generated_from_COOK_or_BUFFET",
+      "sourceRevision": 8914,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "0.6 HP/s at 1 stack, +0.6 HP/s each additional stack",
+        "stats": [
+          {
+            "stat": "Health regeneration",
+            "base": "0.6 HP/s",
+            "add": "0.6 HP/s",
+            "stacking": "Linear"
+          },
+          {
+            "stat": "Movement speed increase",
+            "base": "2 km/h",
+            "add": "2 km/h",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "CHEF's COOK or BUFFET produces this temporary meal. Copies expire together; picking up another copy refreshes the 30-second timer."
+      ]
+    },
+    {
+      "id": "fried-eyeball",
+      "name": "Fried Eyeball",
+      "tier": "Special",
+      "subTier": "Meal",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "CHEF",
+        "meal",
+        "temporary"
+      ],
+      "summary": "Slow nearby enemies.",
+      "exactEffect": "Slow enemy movement speed by 37.5% and attack speed by 25% in an area around you (stacks increase range).",
+      "unlock": "One of the meals CHEF can produce from COOK.",
+      "icon": "./public/assets/returns/Friedeyeball.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Friedeyeball.png",
+      "assetKey": "Friedeyeball.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/CHEF#Possible_meals_generated_from_COOK_or_BUFFET",
+      "sourceRevision": 8914,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Aura range",
+            "base": "Increases with stacks",
+            "add": "",
+            "stacking": "Custom"
+          },
+          {
+            "stat": "Enemy movement slow",
+            "base": "37.5%",
+            "add": "",
+            "stacking": "None"
+          },
+          {
+            "stat": "Enemy attack speed slow",
+            "base": "25%",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      },
+      "notes": [
+        "Additional copies increase the aura's range, not its slow strength. The source does not quantify the range increase.",
+        "CHEF's COOK or BUFFET produces this temporary meal. Copies expire together; picking up another copy refreshes the 30-second timer."
+      ]
+    },
+    {
+      "id": "golem-essence-on-the-rocks",
+      "name": "Golem Essence on the Rocks",
+      "tier": "Special",
+      "subTier": "Meal",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "chef meal"
+      ],
+      "tags": [
+        "CHEF",
+        "meal",
+        "temporary"
+      ],
+      "summary": "Gain barrier and increased armor.",
+      "exactEffect": "Gain 50% max HP as barrier on pickup, and 40 armor (+10 per stack).",
+      "unlock": "One of the meals CHEF can produce from COOK.",
+      "icon": "./public/assets/returns/Golemessenceontherocks.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Golemessenceontherocks.png",
+      "assetKey": "Golemessenceontherocks.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/CHEF#Possible_meals_generated_from_COOK_or_BUFFET",
+      "sourceRevision": 8914,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "40 at 1 stack, +10 each additional stack",
+        "stats": [
+          {
+            "stat": "Armor",
+            "base": "40",
+            "add": "10",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "CHEF's COOK or BUFFET produces this temporary meal. Copies expire together; picking up another copy refreshes the 30-second timer."
+      ]
+    },
+    {
+      "id": "jelly-brain-salad",
+      "name": "Jelly Brain Salad",
+      "tier": "Special",
+      "subTier": "Meal",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [
+        "CHEF",
+        "meal",
+        "temporary"
+      ],
+      "summary": "Reduces skill cooldowns by 1 second.",
+      "exactEffect": "Reduces skill cooldowns by 1 second (+0.5s per stack). Cooldowns cannot go below 0.5s.",
+      "unlock": "One of the meals CHEF can produce from COOK.",
+      "icon": "./public/assets/returns/Jellybrainsalad.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Jellybrainsalad.png",
+      "assetKey": "Jellybrainsalad.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/CHEF#Possible_meals_generated_from_COOK_or_BUFFET",
+      "sourceRevision": 8914,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1s at 1 stack, +0.5s each additional stack",
+        "stats": [
+          {
+            "stat": "Skill cooldown removed",
+            "base": "1s",
+            "add": "0.5s",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "The calculator shows the flat cooldown reduction. Each affected skill's final cooldown has a 0.5-second minimum.",
+        "CHEF's COOK or BUFFET produces this temporary meal. Copies expire together; picking up another copy refreshes the 30-second timer."
+      ]
+    },
+    {
+      "id": "keycard",
+      "name": "Keycard",
+      "tier": "Special",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [],
+      "summary": "Opens locked security doors.",
+      "exactEffect": "Opens locked security doors interacted with while held. Consumed on use.",
+      "unlock": "Golden Canisters, enemy drops on Risk of Rain.",
+      "icon": "./public/assets/returns/Keycard.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Keycard.png",
+      "assetKey": "Keycard.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Keycard",
+      "sourceRevision": 8177,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "1 at 1 stack, +1 each additional stack",
+        "stats": [
+          {
+            "stat": "Locked doors you can open",
+            "base": "1",
+            "add": "1",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "marinated-lizard-loaf",
+      "name": "Marinated Lizard Loaf",
+      "tier": "Special",
+      "subTier": "Meal",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [
+        "chef meal"
+      ],
+      "tags": [
+        "CHEF",
+        "meal",
+        "temporary"
+      ],
+      "summary": "Increased damage.",
+      "exactEffect": "Increase damage by 20% (+10% per stack).",
+      "unlock": "One of the meals CHEF can produce from COOK.",
+      "icon": "./public/assets/returns/Marinatedlizardload.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Marinatedlizardload.png",
+      "assetKey": "Marinatedlizardload.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/CHEF#Possible_meals_generated_from_COOK_or_BUFFET",
+      "sourceRevision": 8914,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "20% at 1 stack, +10% each additional stack",
+        "stats": [
+          {
+            "stat": "Damage increase",
+            "base": "20%",
+            "add": "10%",
+            "stacking": "Linear"
+          }
+        ]
+      },
+      "notes": [
+        "CHEF's COOK or BUFFET produces this temporary meal. Copies expire together; picking up another copy refreshes the 30-second timer."
+      ]
+    },
+    {
+      "id": "metal-scrap",
+      "name": "Metal Scrap",
+      "tier": "Special",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [],
+      "summary": "Useless.",
+      "exactEffect": "Useless.",
+      "unlock": "Scrap yourself after dying in multiplayer.",
+      "icon": "./public/assets/returns/Scrap.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Scrap.png",
+      "assetKey": "Scrap.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Metal_Scrap",
+      "sourceRevision": 8192,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "None",
+        "formula": "Additional stacks do not change this effect",
+        "stats": [
+          {
+            "stat": "Effect",
+            "base": "No gameplay effect",
+            "add": "",
+            "stacking": "None"
+          }
+        ]
+      }
+    },
+    {
+      "id": "small-enigma",
+      "name": "Small Enigma",
+      "tier": "Special",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [],
+      "summary": "Reduce the cooldown of equipment.",
+      "exactEffect": "Reduce equipment cooldown by 5% (+5% per stack).",
+      "unlock": "Drops whenever an equipment would have with the Artifact of Enigma enabled.",
+      "icon": "./public/assets/returns/Smallenigma.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Smallenigma.png",
+      "assetKey": "Smallenigma.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/Small_Enigma",
+      "sourceRevision": 8896,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Custom",
+        "formula": "See effect and mechanics notes for this item's stacking behavior",
+        "stats": [
+          {
+            "stat": "Equipment cooldown reduction",
+            "base": "Custom cooldown effect",
+            "add": "",
+            "stacking": "Custom"
+          }
+        ]
+      },
+      "notes": [
+        "Equipment drops become Small Enigmas with Artifact of Enigma enabled. The source lists 5% cooldown reduction per stack without a complete stacking formula."
+      ]
+    },
+    {
+      "id": "white-undershirt-m",
+      "name": "White Undershirt (M)",
+      "tier": "Special",
+      "subTier": "",
+      "kind": "item",
+      "game": "returns",
+      "dlc": "Risk of Rain Returns",
+      "aliases": [],
+      "tags": [],
+      "summary": "+2 STR S>2m or best offer @@@@@@@@",
+      "exactEffect": "Increase armor by 3 (+3 per stack).",
+      "unlock": "Drops from the Armored Boarlit on Boar Beach.",
+      "icon": "./public/assets/returns/Whiteundershirtm.png",
+      "assetSource": "https://riskofrainreturns.wiki.gg/wiki/File:Whiteundershirtm.png",
+      "assetKey": "Whiteundershirtm.png",
+      "source": "https://riskofrainreturns.wiki.gg/wiki/White_Undershirt_(M)",
+      "sourceRevision": 8178,
+      "lastVerified": "2026-09-05",
+      "stacking": {
+        "type": "Linear",
+        "formula": "3 at 1 stack, +3 each additional stack",
+        "stats": [
+          {
+            "stat": "Armor",
+            "base": "3",
+            "add": "3",
+            "stacking": "Linear"
+          }
+        ]
+      }
+    }
+  ]
+}

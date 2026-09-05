@@ -23,6 +23,10 @@ export function calculateStat(stat, stacks) {
   let unit = base.unit;
   const type = stat.stacking || "None";
 
+  if (["Special", "Custom"].includes(type)) {
+    return { supported: false, display: stat.base || "Custom effect", value: null, unit };
+  }
+
   if (type === "Linear" && add) {
     value = base.value + add.value * (count - 1);
   } else if (type === "Hyperbolic" && (base.unit === "%" || add?.unit === "%")) {
@@ -56,7 +60,9 @@ export function calculateStat(stat, stacks) {
     return { supported: false, display: stat.base, value: null, unit: base.unit };
   }
 
-  return { supported: !["Special", "Custom"].includes(type), display: formatMeasurement(value, unit), value, unit };
+  if (Number.isFinite(stat.minValue)) value = Math.max(stat.minValue, value);
+  if (Number.isFinite(stat.maxValue)) value = Math.min(stat.maxValue, value);
+  return { supported: true, display: formatMeasurement(value, unit), value, unit };
 }
 
 export function calculateItem(item, stacks) {

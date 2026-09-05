@@ -8,7 +8,10 @@
     "fetch:data": "node scripts/fetch-source.mjs",
     "build:data": "node scripts/build-data.mjs",
     "import:icons": "node scripts/import-icons.mjs",
+    "fetch:returns": "node scripts/fetch-returns.mjs",
+    "build:returns": "node scripts/build-returns.mjs",
+    "import:returns-icons": "node scripts/import-returns-icons.mjs",
     "test": "node --test",
-    "check": "npm run test && node scripts/validate-data.mjs"
+    "check": "npm run test && node scripts/validate-data.mjs && node scripts/validate-returns.mjs"
   }
 }

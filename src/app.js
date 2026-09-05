@@ -1,6 +1,10 @@
 import { calculateItem, differenceBetween } from "./calculators.js";
 
-const tierOrder = ["All", "Common", "Uncommon", "Legendary", "Boss", "Lunar", "Void", "Meal", "Equipment", "Other"];
+const isReturns = document.body.dataset.game === "returns";
+const catalogFile = isReturns ? "returns-items.json" : "items.json";
+const tierOrder = isReturns
+  ? ["All", "Common", "Uncommon", "Legendary", "Boss", "Equipment", "Special"]
+  : ["All", "Common", "Uncommon", "Legendary", "Boss", "Lunar", "Void", "Meal", "Equipment", "Other"];
 const tierColors = {
   All: "#e9e2d4",
   Common: "#e9e2d4",
@@ -11,7 +15,8 @@ const tierColors = {
   Void: "#a760c7",
   Meal: "#f08b3f",
   Equipment: "#d87932",
-  Other: "#82909a"
+  Other: "#82909a",
+  Special: "#b892dc"
 };
 
 const state = {
@@ -35,7 +40,8 @@ const elements = {
   empty: document.querySelector("#empty-state"),
   clear: document.querySelector("#clear-search"),
   backdrop: document.querySelector("#sheet-backdrop"),
-  footerCount: document.querySelector("#footer-count")
+  footerCount: document.querySelector("#footer-count"),
+  footerVerified: document.querySelector("#footer-verified")
 };
 
 const mobileQuery = window.matchMedia("(max-width: 900px)");
@@ -43,7 +49,7 @@ const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
 
 function searchableText(item) {
   const recipeText = item.chef?.recipes.flatMap((recipe) => ["wandering chef recipe", recipe.category, ...recipe.ingredients.flat()]) || [];
-  return [item.name, ...item.aliases, item.summary, item.exactEffect, ...item.tags, item.dlc, item.tier, item.subTier, ...recipeText]
+  return [item.name, ...item.aliases, item.summary, item.exactEffect, ...item.tags, item.dlc, item.tier, item.subTier, item.unlock, ...recipeText]
     .filter(Boolean)
     .join(" ")
     .toLocaleLowerCase();
@@ -94,7 +100,7 @@ function applyFilters() {
 function selectItem(item, { pin = false, openSheet = false } = {}) {
   state.selected = item;
   if (pin) state.pinned = true;
-  if (openSheet || mobileQuery.matches) state.sheetOpen = true;
+  if (openSheet) state.sheetOpen = true;
   renderDetail();
   updateSelectedCards();
 }
@@ -154,7 +160,7 @@ function statLine(result) {
 
 function renderStackTable(item) {
   const primary = item.stacking.stats.find((stat) => stat.stacking !== "ProcCoeff");
-  if (!primary) return "";
+  if (!primary || !calculateItem(item, 1)[0]?.supported) return "";
   const values = [1, 2, 5, 10].map((count) => calculateItem(item, count)[0]);
   return `
     <div class="stack-table" aria-label="Example stack values">
@@ -249,8 +255,19 @@ function renderDetail() {
       ${item.exactEffect !== item.summary ? `<p class="exact-effect">${item.exactEffect}</p>` : ""}
     </div>
 
+    ${item.notes?.length ? `<div class="mechanics-notes">${item.notes.map((note) => `<p>${note}</p>`).join("")}</div>` : ""}
+
     ${renderChefRecipes(item)}
 
+    ${isReturns && item.equipment ? `
+    <section class="calculator" aria-labelledby="calculator-title">
+      <div class="calculator-title-row">
+        <div><p class="section-label">Equipment</p><h3 id="calculator-title">Activation cooldown</h3></div>
+      </div>
+      <div class="calculation-result"><div class="current-result"><span>Base cooldown</span><strong>${item.equipment.cooldown}s</strong></div></div>
+      <p class="equipment-note">Equipment occupies one slot. Additional copies do not stack; cooldown-reducing items apply separately.</p>
+    </section>
+    ` : `
     <section class="calculator" aria-labelledby="calculator-title">
       <div class="calculator-title-row">
         <div>
@@ -286,6 +303,7 @@ function renderDetail() {
       <div class="formula-row"><span>Formula</span><strong>${item.stacking.formula}</strong></div>
       ${renderStackTable(item)}
     </section>
+    `}
 
     <div class="detail-source">
       <div><span>Source</span><a href="${item.source}" target="_blank" rel="noreferrer">Trace mechanics ↗</a></div>
@@ -294,9 +312,9 @@ function renderDetail() {
   `;
 
   elements.detail.querySelector(".detail-close").addEventListener("click", closeSheet);
-  elements.detail.querySelector('[data-action="decrement"]').addEventListener("click", () => setStacks(stacks - 1));
-  elements.detail.querySelector('[data-action="increment"]').addEventListener("click", () => setStacks(stacks + 1));
-  elements.detail.querySelector(".stack-input").addEventListener("change", (event) => setStacks(event.currentTarget.value));
+  elements.detail.querySelector('[data-action="decrement"]')?.addEventListener("click", () => setStacks(stacks - 1));
+  elements.detail.querySelector('[data-action="increment"]')?.addEventListener("click", () => setStacks(stacks + 1));
+  elements.detail.querySelector(".stack-input")?.addEventListener("change", (event) => setStacks(event.currentTarget.value));
 }
 
 function setStacks(value) {
@@ -373,12 +391,16 @@ document.addEventListener("keydown", (event) => {
 
 async function init() {
   try {
-    const response = await fetch(new URL("../data/items.json", import.meta.url));
+    const response = await fetch(new URL(`../data/${catalogFile}`, import.meta.url));
     if (!response.ok) throw new Error(`Catalog request failed (${response.status})`);
     const dataset = await response.json();
     state.items = dataset.items.map((item) => ({ ...item, searchText: searchableText(item) }));
     state.selected = state.items.find((item) => item.name === "Soldier's Syringe") || state.items[0];
     elements.footerCount.textContent = dataset.meta.total;
+    const verified = dataset.meta.lastVerified || state.items[0]?.lastVerified;
+    if (elements.footerVerified && verified) {
+      elements.footerVerified.textContent = `Verified ${new Date(`${verified}T12:00:00`).toLocaleDateString("en-US", { month: "short", year: "numeric" })}`;
+    }
     renderFilters();
     applyFilters();
   } catch (error) {
